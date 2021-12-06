@@ -1,0 +1,2382 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+.header_a2 {
+    display: none;
+}
+
+.aemh-area1 {
+    display: none;
+}
+
+.aemh-area2 {
+    display: block;
+}
+
+.aemh-left h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+    padding-top: 26px;
+}
+
+.jsum-area1 {
+    display: none;
+}
+
+.jsum-area2 {
+    display: block;
+}
+
+
+
+.jsum-right h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 35px;
+    margin: 0;
+    margin-left: 0px;
+    text-align: center;
+}
+
+
+.jsum-right p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 16px 0;
+    text-align: center;
+}
+
+
+.jsum-right a {
+    font-family: "Mosk Bold 700";
+    color: #fff;
+    font-size: 14px;
+    background-color: #FB41C6;
+    text-transform: uppercase;
+    width: 261px;
+    text-align: center;
+    display: inline-block;
+    height: 41px;
+    line-height: 41px;
+    border-radius: 70px;
+    transition: 0.3s all ease;
+    margin: auto;
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 26px;
+}
+
+
+.jsum-left img {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    margin: auto;
+    margin-bottom: -199px;
+}
+
+
+.jsum-area {
+    background-color: #fff;
+    padding: 160px 0;
+    padding-top: 9px;
+}
+
+
+.jsum-area {
+    background-color: #fff;
+    padding: 160px 0;
+    padding-top: 9px;
+}
+
+
+
+.jsc-area1 {
+    display: none;
+}
+
+.jsc-area2 {
+    display: block;
+}
+
+
+.jsc-right h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 35px;
+    margin: 0;
+    margin-left: 0px;
+    text-align: center;
+}
+
+
+.jsc-right p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 16px 0;
+    text-align: center;
+}
+
+
+.jsc-right a {
+    font-family: "Mosk Bold 700";
+    color: #fff;
+    font-size: 14px;
+    background-color: #FB41C6;
+    text-transform: uppercase;
+    width: 261px;
+    text-align: center;
+    display: inline-block;
+    height: 41px;
+    line-height: 41px;
+    border-radius: 70px;
+    transition: 0.3s all ease;
+    margin: auto;
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 26px;
+}
+
+
+.jsc-left img {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    margin: auto;
+    margin-bottom: -189px;
+}
+
+
+.jsc-top {
+    background-color: #FFF0FB;
+    border-radius: 0px 300px 300px
+ 300px;
+    padding: 55px 0;
+    padding-left: 0;
+    padding-bottom: 119px;
+}
+
+
+.jst-area1 {
+    display: none;
+}
+
+.jst-area2 {
+    display: block;
+}
+
+.jst-right h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 35px;
+    margin: 0;
+    margin-left: 0px;
+    text-align: center;
+}
+
+
+.jst-right p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 16px 0;
+    text-align: center;
+}
+
+
+.jst-right a {
+    font-family: "Mosk Bold 700";
+    color: #fff;
+    font-size: 14px;
+    background-color: #FB41C6;
+    text-transform: uppercase;
+    width: 261px;
+    text-align: center;
+    display: inline-block;
+    height: 41px;
+    line-height: 41px;
+    border-radius: 70px;
+    transition: 0.3s all ease;
+    margin: auto;
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 26px;
+}
+
+
+.jst-left img {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    margin: auto;
+    margin-bottom: -189px;
+}
+
+
+.tenc-top p {
+    display: none;
+}
+
+.tenc-top h6 {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+.dntenc-top p {
+    display: none;
+}
+
+.dntenc-top h6 {
+    display: block;
+}
+
+
+.tenc-area {
+    background-color: #fff;
+    padding: 30px 0;
+    padding-top: 128px;
+}
+
+
+
+.tenc-area .owl-dots {
+    margin-left: 50px;
+    margin-top: 28px;
+}
+
+
+.tenc-area .customPrevBtn1 i {
+    color: #fff;
+    background-color: #F4F4F4;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -23px;
+    right: 260px;
+    cursor: pointer;
+    z-index: 999999;
+    transition: 0.3s all ease;
+}
+
+
+
+
+.tenc-area .owl-carousel button.owl-dot {
+    background: #F8F8F8 !important;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    width: 108px !important;
+    height: 7px;
+    display: inline-block;
+    margin: 0 8px;
+    border-radius: 43px;
+    outline: none;
+}
+
+
+
+
+
+
+
+.dntenc-area .owl-dots {
+    margin-left: 50px;
+    margin-top: 28px;
+}
+
+
+.dntenc-area .customPrevBtn1 i {
+    color: #fff;
+    background-color: #F4F4F4;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -23px;
+    right: 260px;
+    cursor: pointer;
+    z-index: 999999;
+    transition: 0.3s all ease;
+}
+
+
+.dntenc-area .owl-carousel button.owl-dot {
+    background: #F8F8F8 !important;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    width: 108px !important;
+    height: 7px;
+    display: inline-block;
+    margin: 0 8px;
+    border-radius: 43px;
+    outline: none;
+}
+
+
+
+.tpms-area .customNextBtn3 i {
+    color: #fff;
+    background-color: #D1D1D1;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -116px;
+    cursor: pointer;
+    z-index: 999999;
+    left: -18px;
+    transition: 0.3s all ease;
+}
+
+
+.tpms-area .customPrevBtn3 i {
+    color: #fff;
+    background-color: #D1D1D1;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -116px;
+    cursor: pointer;
+    z-index: 999999;
+    right: -18px;
+    transition: 0.3s all ease;
+}
+
+.tpms-area {
+    background-color: #fff;
+    padding: 1px 0;
+    margin-bottom: 135px;
+}
+
+.last-area1 {
+    display: none;
+}
+
+.last-area2 {
+    display: block;
+}
+
+
+.last-left h3 {
+    font-family: "Mosk Bold 700";
+    color: #2C2A2A;
+    font-size: 21px;
+}
+
+.last-left p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 12px;
+    margin: 0;
+    line-height: 20px;
+    padding-bottom: 14px;
+    padding-top: 4px;
+    padding-left: 27px;
+}
+
+
+.last-left h3 {
+    font-family: "Mosk Bold 700";
+    color: #2C2A2A;
+    font-size: 21px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-left: 31px;
+}
+
+.last-left {
+    padding-left: 25px;
+}
+
+.last-left form input[type="email"] {
+    font-family: "Mosk Light 300";
+    color: #000000;
+    font-size: 19px;
+    width: 76%;
+    border: none;
+    outline: none;
+    padding: 4px 6px;
+    padding-left: 68px;
+    outline: none;
+}
+
+.last-left form {
+    background-color: #fff;
+    width: 100%;
+    display: block;
+    margin: auto;
+    border: 1px solid #FB41C6;
+    border-radius: 63px;
+    padding: 11px 10px;
+    position: relative;
+}
+
+
+.last-left form img {
+    position: absolute;
+    left: -68px;
+    bottom: 13px;
+    max-width: 24%;
+}
+
+
+.last-right img {
+    margin-top: -8px;
+    width: 123%;
+}
+
+.header_a3 {
+    position: relative;
+    margin-left: -48px;
+}
+
+.last-leftt {
+    padding-left: 0px;
+}
+
+.last-leftt form input[type="email"] {
+    font-family: "Mosk Light 300";
+    color: #000000;
+    font-size: 19px;
+    width: 76%;
+    border: none;
+    outline: none;
+    padding: 9px 5px;
+    padding-left: 57px;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+.header_a2 {
+	display: none;
+}
+
+.aemh-area1 {
+    display: none;
+}
+
+.aemh-area2 {
+    display: block;
+}
+
+.aemh-left h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+    padding-top: 26px;
+}
+
+.jsum-area1 {
+    display: none;
+}
+
+.jsum-area2 {
+    display: block;
+}
+
+
+
+.jsum-right h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 35px;
+    margin: 0;
+    margin-left: 0px;
+    text-align: center;
+}
+
+
+.jsum-right p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 16px 0;
+    text-align: center;
+}
+
+
+.jsum-right a {
+    font-family: "Mosk Bold 700";
+    color: #fff;
+    font-size: 14px;
+    background-color: #FB41C6;
+    text-transform: uppercase;
+    width: 261px;
+    text-align: center;
+    display: inline-block;
+    height: 41px;
+    line-height: 41px;
+    border-radius: 70px;
+    transition: 0.3s all ease;
+    margin: auto;
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 26px;
+}
+
+
+.jsum-left img {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    margin: auto;
+    margin-bottom: -189px;
+}
+
+
+.jsum-area {
+    background-color: #fff;
+    padding: 160px 0;
+    padding-top: 9px;
+}
+
+
+.jsum-area {
+    background-color: #fff;
+    padding: 160px 0;
+    padding-top: 9px;
+}
+
+
+
+.jsc-area1 {
+    display: none;
+}
+
+.jsc-area2 {
+    display: block;
+}
+
+
+.jsc-right h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 35px;
+    margin: 0;
+    margin-left: 0px;
+    text-align: center;
+}
+
+
+.jsc-right p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 16px 0;
+    text-align: center;
+}
+
+
+.jsc-right a {
+    font-family: "Mosk Bold 700";
+    color: #fff;
+    font-size: 14px;
+    background-color: #FB41C6;
+    text-transform: uppercase;
+    width: 261px;
+    text-align: center;
+    display: inline-block;
+    height: 41px;
+    line-height: 41px;
+    border-radius: 70px;
+    transition: 0.3s all ease;
+    margin: auto;
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 26px;
+}
+
+
+.jsc-left img {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    margin: auto;
+    margin-bottom: -189px;
+}
+
+
+.jsc-top {
+    background-color: #FFF0FB;
+    border-radius: 0px 300px 300px
+ 300px;
+    padding: 55px 0;
+    padding-left: 0;
+    padding-bottom: 119px;
+}
+
+
+.jst-area1 {
+    display: none;
+}
+
+.jst-area2 {
+    display: block;
+}
+
+.jst-right h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 35px;
+    margin: 0;
+    margin-left: 0px;
+    text-align: center;
+}
+
+
+.jst-right p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 16px 0;
+    text-align: center;
+}
+
+
+.jst-right a {
+    font-family: "Mosk Bold 700";
+    color: #fff;
+    font-size: 14px;
+    background-color: #FB41C6;
+    text-transform: uppercase;
+    width: 261px;
+    text-align: center;
+    display: inline-block;
+    height: 41px;
+    line-height: 41px;
+    border-radius: 70px;
+    transition: 0.3s all ease;
+    margin: auto;
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 26px;
+}
+
+
+.jst-left img {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    margin: auto;
+    margin-bottom: -189px;
+}
+
+
+.tenc-top p {
+	display: none;
+}
+
+.tenc-top h6 {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+.dntenc-top p {
+	display: none;
+}
+
+.dntenc-top h6 {
+	display: block;
+}
+
+
+.tenc-area {
+    background-color: #fff;
+    padding: 30px 0;
+    padding-top: 128px;
+}
+
+
+
+.tenc-area .owl-dots {
+    margin-left: 50px;
+    margin-top: 28px;
+}
+
+
+.tenc-area .customPrevBtn1 i {
+    color: #fff;
+    background-color: #F4F4F4;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -23px;
+    right: 260px;
+    cursor: pointer;
+    z-index: 999999;
+    transition: 0.3s all ease;
+}
+
+
+
+
+.tenc-area .owl-carousel button.owl-dot {
+    background: #F8F8F8 !important;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    width: 37px !important;
+    height: 7px;
+    display: inline-block;
+    margin: 0 8px;
+    border-radius: 43px;
+    outline: none;
+}
+
+
+
+
+
+
+
+.dntenc-area .owl-dots {
+    margin-left: 50px;
+    margin-top: 28px;
+}
+
+
+.dntenc-area .customPrevBtn1 i {
+    color: #fff;
+    background-color: #F4F4F4;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -23px;
+    right: 260px;
+    cursor: pointer;
+    z-index: 999999;
+    transition: 0.3s all ease;
+}
+
+
+.dntenc-area .owl-carousel button.owl-dot {
+    background: #F8F8F8 !important;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    width: 37px !important;
+    height: 7px;
+    display: inline-block;
+    margin: 0 8px;
+    border-radius: 43px;
+    outline: none;
+}
+
+
+
+.tpms-area .customNextBtn3 i {
+    color: #fff;
+    background-color: #D1D1D1;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -116px;
+    cursor: pointer;
+    z-index: 999999;
+    left: -18px;
+    transition: 0.3s all ease;
+}
+
+
+.tpms-area .customPrevBtn3 i {
+    color: #fff;
+    background-color: #D1D1D1;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -116px;
+    cursor: pointer;
+    z-index: 999999;
+    right: -18px;
+    transition: 0.3s all ease;
+}
+
+.tpms-area {
+    background-color: #fff;
+    padding: 1px 0;
+    margin-bottom: 135px;
+}
+
+.last-area1 {
+    display: none;
+}
+
+.last-area2 {
+    display: block;
+}
+
+
+.last-left h3 {
+	font-family: "Mosk Bold 700";
+	color: #2C2A2A;
+	font-size: 21px;
+}
+
+.last-left p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 12px;
+    margin: 0;
+    line-height: 20px;
+    padding-bottom: 14px;
+    padding-top: 4px;
+    padding-left: 27px;
+}
+
+
+.last-left h3 {
+    font-family: "Mosk Bold 700";
+    color: #2C2A2A;
+    font-size: 21px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-left: 31px;
+}
+
+.last-left {
+    padding-left: 25px;
+}
+
+.last-left form input[type="email"] {
+    font-family: "Mosk Light 300";
+    color: #000000;
+    font-size: 19px;
+    width: 64%;
+    border: none;
+    outline: none;
+    padding: 4px 6px;
+    padding-left: 28px;
+    outline: none;
+}
+
+.last-left form {
+    background-color: #fff;
+    width: 100%;
+    display: block;
+    margin: auto;
+    border: 1px solid #FB41C6;
+    border-radius: 63px;
+    padding: 11px 10px;
+    position: relative;
+}
+
+
+.last-left form img {
+    position: absolute;
+    left: -68px;
+    bottom: 13px;
+    max-width: 24%;
+}
+
+
+.last-right img {
+    margin-top: -8px;
+    width: 123%;
+}
+
+
+.last-leftt {
+    padding-left: 0px;
+}
+
+.menuhd-right_a1 img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    margin-right: 0;
+    margin-top: -42px;
+    position: relative;
+    top: -289px;
+}
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {	
+
+
+.header-area {
+    display: none;
+}
+
+
+.mobile-area {
+    display: block;
+}
+
+.aemh-area {
+    display: none;
+}
+
+
+.jsum-area1 {
+    display: none;
+}
+
+
+
+.jsum-area3 {
+    display: block;
+}
+
+
+.jsum-right h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 28px;
+    margin: 0;
+    margin-left: 0px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+
+.jsum-right p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 14px 0;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+
+
+.jsum-right a {
+    font-family: "Mosk Bold 700";
+    color: #fff;
+    font-size: 14px;
+    background-color: #FB41C6;
+    text-transform: uppercase;
+    width: 261px;
+    text-align: center;
+    display: inline-block;
+    height: 41px;
+    line-height: 41px;
+    border-radius: 70px;
+    transition: 0.3s all ease;
+    margin: auto;
+    display: block;
+}
+
+
+
+.jsum-left img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    margin-left: 0px;
+    margin-top: 25px;
+    margin-bottom: -125px;
+}
+
+
+
+.jsc-area1 {
+    display: none; 
+}
+
+
+.jsc-area3 {
+    display: block; 
+}
+
+.jsc-right h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 28px;
+    margin: 0;
+    margin-left: 0px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+
+.jsc-right p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 14px 0;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+
+
+.jsc-right a {
+    font-family: "Mosk Bold 700";
+    color: #fff;
+    font-size: 14px;
+    background-color: #FB41C6;
+    text-transform: uppercase;
+    width: 261px;
+    text-align: center;
+    display: inline-block;
+    height: 41px;
+    line-height: 41px;
+    border-radius: 70px;
+    transition: 0.3s all ease;
+    margin: auto;
+    display: block;
+}
+
+
+
+.jsc-left img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    margin-left: 0px;
+    margin-top: 25px;
+    margin-bottom: -125px;
+}
+
+.jsc-top {
+    background-color: #FFF0FB;
+    border-radius: 0px 300px 300px 300px;
+    padding: 55px 0;
+    padding-left: 0px;
+}
+
+
+
+
+
+.jst-area1 {
+    display: none;
+}
+
+
+.jst-area3 {
+    display: block;
+}
+
+
+
+.jst-right h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 28px;
+    margin: 0;
+    margin-left: 0px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+
+.jst-right p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 14px 0;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+
+
+.jst-right a {
+    font-family: "Mosk Bold 700";
+    color: #fff;
+    font-size: 14px;
+    background-color: #FB41C6;
+    text-transform: uppercase;
+    width: 261px;
+    text-align: center;
+    display: inline-block;
+    height: 41px;
+    line-height: 41px;
+    border-radius: 70px;
+    transition: 0.3s all ease;
+    margin: auto;
+    display: block;
+}
+
+
+
+.jst-left img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    margin-left: 0px;
+    margin-top: 25px;
+    margin-bottom: -125px;
+}
+
+
+
+.tenc-area .owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    border-radius: 0px 0px 0px 0px;
+}
+
+.tenc-top p {
+    display: none;
+}
+
+.tenc-top h5 {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 18px 0;
+    text-align: center;
+    padding-bottom: 14px;
+    display: block;
+}
+
+.dntenc-top p {
+    display: none;
+}
+
+.dntenc-top h5 {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 18px 0;
+    text-align: center;
+    padding-bottom: 14px;
+    display: block;   
+}
+
+.tenc-area .owl-dots {
+    display: none;
+}
+
+.dntenc-area .owl-dots {
+    margin-left: 166px;
+    margin-top: 28px;
+    display:  none;
+}
+
+
+.tenc-area .owl-dots {
+    margin-left: 166px;
+    margin-top: 28px;
+    display:  none;
+}
+
+.tenc-area .customNextBtn1 i {
+    display: none;
+}
+
+.dntenc-area .customNextBtn2 i {
+    display: none;
+}
+
+.dntenc-area .customPrevBtn2 i {
+    display:  none;
+}
+
+.tenc-area .customPrevBtn1 i {
+    display: none;
+}
+
+
+.dntenc-area .owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    border-radius: 0px 0px 0px 0px;
+}
+
+.tenc-area {
+    background-color: #fff;
+    padding: 30px 0;
+    padding-top: 42px;
+}
+
+
+.dntenc-area {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.tenc-top h2 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 24px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: -15px;
+    position: relative;
+}
+
+
+.tenc-top img {
+    display: none;
+}
+
+.tenc-top h2:after {
+    content: "";
+    display: block;
+    clear: both;
+    width: 157px;
+    height: 10px;
+    margin: auto;
+    background-color: #e3fff2;
+    margin-bottom: 8px;
+    margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.dntenc-top h2 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 24px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: -15px;
+    position: relative;
+}
+
+
+.dntenc-top img {
+    display: none;
+}
+
+.dntenc-top h2:after {
+    content: "";
+    display: block;
+    clear: both;
+    width: 157px;
+    height: 10px;
+    margin: auto;
+    background-color: #f8eed7;
+    margin-bottom: 8px;
+    margin-top: -10px;
+}
+
+
+.dntenc-area .container {
+    padding: 0;
+    overflow:  hidden;
+}
+
+.tenc-area .container {
+    padding: 0;
+    overflow:  hidden;
+}
+
+.tpms-area {
+    background-color: #fff;
+    padding: 34px 0;
+    margin-bottom: 60px;
+}
+
+.tpms-top h2 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 24px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: -20px;
+    position: relative;
+}
+
+.tpms-top img {
+    max-width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 22px;
+}
+
+.tpms-area .customNextBtn3 i {
+    display: none;
+}
+
+
+.tpms-area .customPrevBtn3 i {
+    display: none;
+}
+
+
+.last-area {
+    display: none;
+}
+
+.footer-area {
+    display: none;
+}
+
+
+
+.dnmobile-area {
+    display: block;
+}
+
+
+.last-area3 {
+    display: block;
+}
+
+.last-area {
+    background-color: #fff0fb;
+}
+
+.last-top {
+    border-radius: 50px;
+    border: 0px solid #fff;
+    background-color: #FFF0FB;
+    padding: 15px 0;
+    margin-top: 1px;
+}
+
+
+.last-left {
+    padding-left: 0px;
+}
+
+
+.last-right img {
+    display: block;
+    margin: auto;
+    margin-top: -141px;
+    max-width: 100%;
+}
+
+
+.last-left h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 40px;
+}
+
+.last-left p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 10px;
+    margin: 0;
+    line-height: 15px;
+    padding-bottom: 18px;
+    padding-top: 10px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+
+.last-left form input[type="email"]::placeholder {
+    font-size: 11px;
+}
+
+.last-left form input[type="submit"] {
+    font-family: "Mosk Bold 700";
+    background-color: #FB41C6;
+    border: none;
+    width: 82px;
+    height: 27px;
+    border-radius: 38px;
+    color: #fff;
+    font-size: 9px;
+    text-transform: uppercase;
+    outline: none;
+    transition: 0.3s all ease;
+}
+
+.last-left form input[type="email"] {
+    font-family: "Mosk Light 300";
+    color: #000000;
+    font-size: 11px;
+    width: 65%;
+    border: none;
+    outline: none;
+    padding: 0px 5px;
+    padding-left: 20px;
+    outline: none;
+}
+
+
+.last-left form {
+    background-color: #fff;
+    width: 100%;
+    display: block;
+    margin: auto;
+    border: 1px solid #FB41C6;
+    border-radius: 63px;
+    padding: 8px 10px;
+    position: relative;
+    padding-right: 0;
+}
+
+
+.last-left form img {
+    position: absolute;
+    left: -22px;
+    bottom: 5px;
+    max-width: 18%;
+}
+
+.footer_a2 h3 {
+    font-family: "Mosk Medium 500";
+    color: #2C2A2A;
+    font-size: 15px;
+    display: block;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 29px;
+}
+
+.footer_a2 p {
+    font-family: "Mosk Medium 500";
+    color: #2C2A2A;
+    font-size: 15px;
+    display: block;
+    padding-top: 16px;
+    margin: 0;
+}
+
+.last-area {
+    background-color: #fff0fb;
+    padding-bottom: 0;
+}
+
+.tmobilelast-part_a1 {
+    padding-left: 15px;
+}
+
+
+.smobilelast-part_a1 {
+    padding-left: 15px;
+}
+
+.footer_a2 {
+    padding-left: 15px; 
+}
+
+.mobilelast-area {
+    display: block;
+}
+
+
+.tmenuhd-left {
+    display: flex;
+    padding-top: 15px;
+}
+
+.menuhd-left {
+    width: 50%;
+}
+
+.menuhd-left1 {
+    width: 50%;
+}
+
+.menuhd-left ul li a {
+    font-family: "Mosk Light 300";
+    color: #FB41C6;
+    font-size: 16px;
+    display: block;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+.menuhd-left1 img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    margin-right: 0;
+    margin-top: 47px;
+}
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+
+
+.header-area {
+    display: none;
+}
+
+
+.mobile-area {
+    display: block;
+}
+
+.aemh-area {
+    display: none;
+}
+
+
+.jsum-area1 {
+    display: none;
+}
+
+
+
+.jsum-area3 {
+    display: block;
+}
+
+
+.jsum-right h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 28px;
+    margin: 0;
+    margin-left: 0px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+
+.jsum-right p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 14px 0;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+
+
+.jsum-right a {
+    font-family: "Mosk Bold 700";
+    color: #fff;
+    font-size: 14px;
+    background-color: #FB41C6;
+    text-transform: uppercase;
+    width: 261px;
+    text-align: center;
+    display: inline-block;
+    height: 41px;
+    line-height: 41px;
+    border-radius: 70px;
+    transition: 0.3s all ease;
+    margin: auto;
+    display: block;
+}
+
+
+
+.jsum-left img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    margin-left: 0px;
+    margin-top: 25px;
+    margin-bottom: -125px;
+}
+
+
+
+.jsc-area1 {
+    display: none; 
+}
+
+
+.jsc-area3 {
+    display: block; 
+}
+
+.jsc-right h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 28px;
+    margin: 0;
+    margin-left: 0px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+
+.jsc-right p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 14px 0;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+
+
+.jsc-right a {
+    font-family: "Mosk Bold 700";
+    color: #fff;
+    font-size: 14px;
+    background-color: #FB41C6;
+    text-transform: uppercase;
+    width: 261px;
+    text-align: center;
+    display: inline-block;
+    height: 41px;
+    line-height: 41px;
+    border-radius: 70px;
+    transition: 0.3s all ease;
+    margin: auto;
+    display: block;
+}
+
+
+
+.jsc-left img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    margin-left: 0px;
+    margin-top: 25px;
+    margin-bottom: -125px;
+}
+
+.jsc-top {
+    background-color: #FFF0FB;
+    border-radius: 0px 300px 300px 300px;
+    padding: 55px 0;
+    padding-left: 0px;
+}
+
+
+
+
+
+.jst-area1 {
+    display: none;
+}
+
+
+.jst-area3 {
+    display: block;
+}
+
+
+
+.jst-right h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 28px;
+    margin: 0;
+    margin-left: 0px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+
+.jst-right p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 14px 0;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+
+
+.jst-right a {
+    font-family: "Mosk Bold 700";
+    color: #fff;
+    font-size: 14px;
+    background-color: #FB41C6;
+    text-transform: uppercase;
+    width: 261px;
+    text-align: center;
+    display: inline-block;
+    height: 41px;
+    line-height: 41px;
+    border-radius: 70px;
+    transition: 0.3s all ease;
+    margin: auto;
+    display: block;
+}
+
+
+
+.jst-left img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    margin-left: 0px;
+    margin-top: 25px;
+    margin-bottom: -125px;
+}
+
+
+
+.tenc-area .owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    border-radius: 0px 0px 0px 0px;
+}
+
+.tenc-top p {
+    display: none;
+}
+
+.tenc-top h5 {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 18px 0;
+    text-align: center;
+    padding-bottom: 14px;
+    display: block;
+}
+
+.dntenc-top p {
+    display: none;
+}
+
+.dntenc-top h5 {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 18px 0;
+    text-align: center;
+    padding-bottom: 14px;
+    display: block;   
+}
+
+.tenc-area .owl-dots {
+    display: none;
+}
+
+.dntenc-area .owl-dots {
+    margin-left: 166px;
+    margin-top: 28px;
+    display:  none;
+}
+
+
+.tenc-area .owl-dots {
+    margin-left: 166px;
+    margin-top: 28px;
+    display:  none;
+}
+
+.tenc-area .customNextBtn1 i {
+    left: 21px;
+    top: 197px;
+}
+
+.dntenc-area .customNextBtn2 i {
+    top: 197px;
+    left: 21px;
+}
+
+.dntenc-area .customPrevBtn2 i {
+    right: 21px !important;
+    top: 197px;
+    background: #00e2ff;
+}
+
+.tenc-area .customPrevBtn1 i {
+    right: 21px !important;
+    top: 197px;
+    background: #12e482;
+}
+
+
+.dntenc-area .owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    border-radius: 0px 0px 0px 0px;
+}
+
+.tenc-area {
+    background-color: #fff;
+    padding: 30px 0;
+    padding-top: 42px;
+}
+
+
+.dntenc-area {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.tenc-top h2 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 24px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: -15px;
+    position: relative;
+}
+
+
+.tenc-top img {
+    display: none;
+}
+
+.tenc-top h2:after {
+    content: "";
+    display: block;
+    clear: both;
+    width: 157px;
+    height: 10px;
+    margin: auto;
+    background-color: #e3fff2;
+    margin-bottom: 8px;
+    margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.dntenc-top h2 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 24px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: -15px;
+    position: relative;
+}
+
+
+.dntenc-top img {
+    display: none;
+}
+
+.dntenc-top h2:after {
+    content: "";
+    display: block;
+    clear: both;
+    width: 157px;
+    height: 10px;
+    margin: auto;
+    background-color: #f8eed7;
+    margin-bottom: 8px;
+    margin-top: -10px;
+}
+
+
+.dntenc-area .container {
+    padding: 0;
+    overflow:  hidden;
+}
+
+.tenc-area .container {
+    padding: 0;
+    overflow:  hidden;
+}
+
+.tpms-area {
+    background-color: #fff;
+    padding: 34px 0;
+    margin-bottom: 60px;
+}
+
+.tpms-top h2 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 24px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: -20px;
+    position: relative;
+}
+
+.tpms-top img {
+    max-width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 22px;
+}
+
+.tpms-area .customNextBtn3 i {
+    left: 2px;
+}
+
+
+.tpms-area .customPrevBtn3 i {
+    right: 2px !important;
+}
+
+
+.last-area {
+    display: none;
+}
+
+.footer-area {
+    display: none;
+}
+
+
+
+.dnmobile-area {
+    display: block;
+}
+
+
+.last-area3 {
+    display: block;
+}
+
+.last-area {
+    background-color: #fff0fb;
+}
+
+.last-top {
+    border-radius: 50px;
+    border: 0px solid #fff;
+    background-color: #FFF0FB;
+    padding: 15px 0;
+    margin-top: 1px;
+}
+
+
+.last-left {
+    padding-left: 0px;
+}
+
+
+.last-right img {
+    display: block;
+    margin: auto;
+    margin-top: -141px;
+    max-width: 100%;
+}
+
+
+.last-left h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 40px;
+}
+
+.last-left p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 10px;
+    margin: 0;
+    line-height: 15px;
+    padding-bottom: 18px;
+    padding-top: 10px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+
+.last-left form input[type="email"]::placeholder {
+    font-size: 11px;
+}
+
+.last-left form input[type="submit"] {
+    font-family: "Mosk Bold 700";
+    background-color: #FB41C6;
+    border: none;
+    width: 82px;
+    height: 27px;
+    border-radius: 38px;
+    color: #fff;
+    font-size: 9px;
+    text-transform: uppercase;
+    outline: none;
+    transition: 0.3s all ease;
+}
+
+.last-left form input[type="email"] {
+    font-family: "Mosk Light 300";
+    color: #000000;
+    font-size: 11px;
+    width: 65%;
+    border: none;
+    outline: none;
+    padding: 0px 5px;
+    padding-left: 20px;
+    outline: none;
+}
+
+
+.last-left form {
+    background-color: #fff;
+    width: 100%;
+    display: block;
+    margin: auto;
+    border: 1px solid #FB41C6;
+    border-radius: 63px;
+    padding: 8px 10px;
+    position: relative;
+    padding-right: 0;
+}
+
+
+.last-left form img {
+    position: absolute;
+    left: -22px;
+    bottom: 5px;
+    max-width: 18%;
+}
+
+.footer_a2 h3 {
+    font-family: "Mosk Medium 500";
+    color: #2C2A2A;
+    font-size: 15px;
+    display: block;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 29px;
+}
+
+.footer_a2 p {
+    font-family: "Mosk Medium 500";
+    color: #2C2A2A;
+    font-size: 15px;
+    display: block;
+    padding-top: 16px;
+    margin: 0;
+}
+
+.last-area {
+    background-color: #fff0fb;
+    padding-bottom: 0;
+}
+
+.tmobilelast-part_a1 {
+    padding-left: 15px;
+}
+
+
+.smobilelast-part_a1 {
+    padding-left: 15px;
+}
+
+.footer_a2 {
+    padding-left: 15px; 
+}
+
+.mobilelast-area {
+    display: block;
+}
+
+
+.tmenuhd-left {
+    display: flex;
+    padding-top: 15px;
+}
+
+.menuhd-left {
+    width: 50%;
+}
+
+.menuhd-left1 {
+    width: 50%;
+}
+
+.menuhd-left ul li a {
+    font-family: "Mosk Light 300";
+    color: #FB41C6;
+    font-size: 16px;
+    display: block;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+.menuhd-left1 img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    margin-right: 0;
+    margin-top: 47px;
+}
+
+
+
+
+
+
+}
+
+
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+
+    .dnmobile-part_a3 ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        text-align: center;
+        padding-top: 14px;
+        padding-bottom: 31px;
+    }
+    
+    
+    .aemh-right_c2 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 282px 0px;
+        width: 367.21px;
+        display: block;
+        height: 387.21px;
+        margin: auto;
+    }
+    
+    .aemh-right_c1 {
+        position: relative;
+        height: 664px;
+        padding-top: 34px;
+    }
+    
+    .img_c3 {
+        max-width: 15%;
+        display: block;
+        position: absolute;
+        bottom: -55px;
+        transform: rotate(90deg);
+        left: 148px;
+    }
+    
+    .img_c2 {
+        display: block;
+        position: absolute;
+        bottom: 195px;
+        max-width: 35%;
+        transform: rotate(-90deg);
+        right: -35px;
+    }
+    
+    .main-slider6 .owl-dots {
+        margin-left: -379px;
+        margin-top: -156px;
+        position: relative;
+        z-index: 999999999999;
+        transform: rotate(90deg);
+    }
+    
+    
+    .main-slider6 .owl-carousel button.owl-dot {
+        background: #F4F4F4 !important;
+        color: inherit;
+        border: none;
+        padding: 0 !important;
+        font: inherit;
+        width: 110px;
+        height: 4px;
+        border-radius: 30px;
+        margin-right: 14px;
+        outline: none;
+    }
+    
+    
+    .jsum-area {
+        background-color: #fff;
+        padding: 60px 0;
+        padding-top: 131px;
+    }
+    
+    
+    
+    
+    
+    
+    }
+    
+    
+    @media screen and (min-width: 321px) and (max-width: 375px) {
+       
+    
+    .aemh-right_c2 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 192px 0px;
+        width: 318.21px;
+        display: block;
+        height: 387.21px;
+        margin: auto;
+    }
+    
+    .img_c2 {
+        display: block;
+        position: absolute;
+        bottom: 195px;
+        max-width: 35%;
+        transform: rotate(-90deg);
+        right: -34px;
+    }
+    
+    .main-slider6 .owl-dots {
+        margin-left: -331px;
+    margin-top: -24px;
+    position: relative;
+    z-index: 999999999999;
+    transform: rotate(90deg);
+    }
+    
+    .img_c3 {
+        max-width: 15%;
+        display: block;
+        position: absolute;
+        bottom: -70px;
+        transform: rotate(90deg);
+        left: 120px;
+    }
+    
+    
+    .dnmobile-part_a3 ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        text-align: center;
+        padding-top: 14px;
+        padding-bottom: 33px;
+    }
+    
+    .main-slider6 .owl-carousel button.owl-dot {
+        background: #F4F4F4 !important;
+        color: inherit;
+        border: none;
+        padding: 0 !important;
+        font: inherit;
+        width: 69px;
+        height: 4px;
+        border-radius: 30px;
+        margin-right: 14px;
+        outline: none;
+    }
+    
+    
+    }
