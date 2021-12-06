@@ -2081,7 +2081,7 @@ Xtra Small Screen - Small Mobile
     text-align: center;
     text-transform: uppercase;
     margin: 0;
-    margin-top: 40px;
+    margin-top: 5px;
 }
 
 .last-left p {
@@ -2193,7 +2193,7 @@ Xtra Small Screen - Small Mobile
 
 .tmenuhd-left {
     display: flex;
-    padding-top: 15px;
+    padding-top: 0px;
 }
 
 .menuhd-left {

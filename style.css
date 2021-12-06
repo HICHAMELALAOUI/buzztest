@@ -1938,6 +1938,7 @@ placeholder {
     width: 100%;
     z-index: 9999999;
     top: 0;
+    height: 100vh;
     display: none;
 }
 
@@ -1961,7 +1962,7 @@ placeholder {
 }
 
 .mainmobile-area .dnmobile-part_a1 ul {
-    padding-top: 25px;
+    padding-top: 0px;
 }
 
 .mainmobile-area .ttfooter_a2 {
