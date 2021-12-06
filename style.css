@@ -1,0 +1,2069 @@
+/*
+========================
+Header area start
+========================
+*/
+
+@font-face {
+   font-family: "Mosk Light 300";
+   src: url('./fonts/Mosk Light 300.ttf');
+}
+
+@font-face {
+   font-family: "Mosk Bold 700";
+   src: url('./fonts/Mosk Bold 700.ttf');
+}
+
+
+@font-face {
+   font-family: "Mosk Extra-Bold 800";
+   src: url('./fonts/Mosk Extra-Bold 800.ttf');
+}
+
+
+@font-face {
+   font-family: "Mosk Extra-Light 200";
+   src: url('./fonts/Mosk Extra-Light 200.ttf');
+}
+
+
+
+@font-face {
+   font-family: "Mosk Medium 500";
+   src: url('./fonts/Mosk Medium 500.ttf');
+}
+
+
+@font-face {
+   font-family: "Mosk Normal 400";
+   src: url('./fonts/Mosk Normal 400.ttf');
+}
+
+
+@font-face {
+   font-family: "Mosk Thin 100";
+   src: url('./fonts/Mosk Thin 100.ttf');
+}
+
+
+@font-face {
+   font-family: "Mosk Thin 100";
+   src: url('./fonts/Mosk Thin 100.ttf');
+}
+
+
+@font-face {
+   font-family: "Mosk Ultra-Bold 900";
+   src: url('./fonts/Mosk Ultra-Bold 900.ttf');
+}
+
+
+
+
+body {	
+    font-size: 16px;
+    font-weight: 400;    
+	background: #fff;
+	color: #333333;	
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-webkit-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-moz-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+.scrolltotop {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px 20px 0 0;
+    background: rgba(0,0,0,.5);   
+    text-align: center;
+    padding-top: 8px;
+    font-size: 22px;
+    color: #ffffff;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    display: none;
+    transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+    -moz-transition: 0.2s all ease;
+}
+
+.scrolltotop:hover {   
+    /* background: #000; */
+    color: #fff;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.5);   
+}
+
+
+/*--- header-area start---*/
+.header-area {
+    background-color: #fff;
+    padding: 30px 0;
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+}
+.red-note{
+    background-color: #FF1936;
+}
+.yellow-note{
+    background-color: #FFD000;
+}
+.header_a1 img {
+    max-width: 100%;
+    display: block;
+}
+
+.header_a2 ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    float: right;
+    padding-top: 20px;
+}
+
+.header_a2 ul li {
+    float: left;
+}
+
+.header_a2 ul li a {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 15px;
+    display: block;
+    padding-left: 26px;
+    transition: 0.3s all ease;
+}
+
+.header_a2 ul li a:hover {
+    /* color: #FB41C6; */
+}
+
+.header_a2 ul li a img {
+    width: 70%;
+    display: none;
+    position: absolute; 
+}
+/* .hovim1,.hovim2, .hovim3,.hovim4,.hovim5 {
+    display: none;
+}
+     */
+     .menuhd-left ul li:hover{
+        text-decoration-line: line-through;
+     }
+     
+.hovlink1:hover .hovim1 {
+    display: block;
+}
+   
+.hovlink2:hover .hovim2 {
+    display: block;
+}
+   
+.hovlink3:hover .hovim3 {
+    display: block;
+}
+   
+.hovlink4:hover .hovim4 {
+    display: block;
+}
+   
+.hovlink5:hover .hovim5 {
+    display: block;
+}
+.header_a3 ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    float: right;
+    padding-top: 10px;
+}
+
+.header_a3 ul li {
+    float: left;
+}
+
+.header_a3 ul li:nth-child(1) a {
+    font-family: "Mosk Bold 700";
+    color: #FB41C6;
+    font-size: 11px;
+    text-transform: uppercase;
+    width: 127px;
+    height: 41px;
+    display: block;
+    border: 1px solid #FB41C6;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 41px;
+    transition: 0.3s all ease;
+}
+
+.header_a3 ul li:nth-child(1) a:hover {
+    background-color: #FB41C6;
+    color: #fff;
+    -webkit-filter: brightness(100%);
+}
+
+.header_a3 ul li:nth-child(2) a {
+    font-family: "Mosk Bold 700";
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    width: 127px;
+    height: 41px;
+    display: block;
+    background-color: #FB41C6;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 41px;
+    margin-left: 12px;
+    transition: 0.2s all ease;  
+}
+
+.header_a3 ul li:nth-child(2) a:hover {
+    background: #fff;
+    -webkit-filter: brightness(100%);
+    border: 1px solid #FB41C6;
+    color: #FB41C6;
+}
+
+.header_a3 ul li:nth-child(3) a {
+    font-family: "Mosk Bold 700";
+    color: #000000;
+    font-size: 16px;
+    display: block;
+    margin-top: 6px;
+    margin-left: 15px;
+}
+
+.header_a3 ul li:nth-child(3) a:after {
+    content: "";
+    clear: both;
+    width: 10px;
+    background-color: #FB41C6;
+    height: 2px;
+    display: block;
+    margin-top: -4px;
+}
+
+.header_a3 ul li:nth-child(4) a {
+    color: #000000;
+    font-size: 19px;
+    display: block;
+    margin-top: 2px;
+    margin-left: 15px;    
+}
+
+.main1-area .header_a3 ul li:nth-child(2) a {
+    font-family: "Mosk Bold 700";
+    color: #FB41C6;
+    font-size: 11px;
+    text-transform: uppercase;
+    width: 127px;
+    height: 41px;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #FB41C6;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 41px;
+    margin-left: 12px;
+    transition: 0.2s all ease;  
+}
+
+
+/*--- aemh-area start---*/
+.aemh-area {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+
+.aemh-left h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+    padding-top: 114px;
+}
+
+.aemh-left p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    text-align: center;
+    margin: 0;
+    padding: 28px 0px;
+}
+
+
+.aemh-left ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.aemh-left ul li {
+    display: inline-block;
+}
+
+.aemh-left ul li a {
+    font-family: "Mosk Bold 700";
+    color: #fff;
+    font-size: 11px;
+    background-color: #00E2FF;
+    text-transform: uppercase;
+    width: 127px;
+    display: inline-block;
+    height: 41px;
+    line-height: 41px;
+    border-radius: 70px;
+    transition: 0.3s all ease;
+}
+
+
+.aemh-left ul li:nth-child(2) a {
+    background-color: #FB41C6; 
+}
+
+
+.aemh-left ul li:nth-child(3) a {
+    background-color: #00E87B;  
+}
+
+.aemh-left ul li a:hover {
+    /* background-color: #000000; */
+}
+
+
+.aemh-right_a1 {
+    position: relative;
+    height: 546px;
+    padding-top: 34px;
+}
+
+.aemh-right_a2 {
+    background-image: url(img/hdg-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 231px 0px;
+    width: 376.21px;
+    display: block;
+    height: 465.21px;
+    margin: auto;
+}
+
+.aemh-right_a2 img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: -30px;
+}
+
+.img_a1 {
+    max-width: 14%;
+    display: block;
+    position: absolute;
+    top: 52px;
+    left: 4px;   
+}
+
+.img_a2 {
+    display: block;
+    position: absolute;
+    bottom: 22px;
+    left: 53px;
+    max-width: 20%;
+}
+
+.img_a3 {
+    max-width: 9%;
+    display: block;
+    position: absolute;
+    bottom: 99px;
+    right: 9px;
+    height: 235px;
+}
+
+
+.img_a4 {
+    max-width: 13%;
+    display: block;
+    position: absolute;
+    right: 2px;
+    top: 125px;
+}
+
+
+
+
+
+.main-slider4 .owl-dots {
+    margin-left: 151px;
+    margin-top: -45px;
+    width: max-content;
+    position: relative;
+    z-index: 999999999999;
+
+}
+
+
+ .main-slider4 .owl-carousel button.owl-dot {
+    background: #F4F4F4 !important;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    width: 61px;
+    height: 4px;
+    border-radius: 30px;
+    margin-right: 14px;
+    outline: none;
+}
+
+ .main-slider4 .owl-carousel button.owl-dot.active {
+       background: #FB41C6 !important; 
+ } 
+
+.aemh-right img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+/*---jsum-area start ---*/
+.jsum-area {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.jsum-top {
+    background-color: #D9FBFF;
+    border-radius: 300px 0px 300px 300px;
+    padding: 55px 0;    
+}
+
+.jsum-left img {
+    margin-left: -85px;
+    margin-top: -50px;
+    margin-bottom: -78px;
+}
+
+.jsum-right h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 35px;
+    margin: 0;
+    margin-left: -17px;
+}
+
+.jsum-right p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 16px 0;
+}
+
+.jsum-right a {
+    font-family: "Mosk Bold 700";
+    color: #fff;
+    font-size: 14px;
+    background-color: #00E2FF;
+    text-transform: uppercase;
+    width: 261px;
+    text-align: center;
+    display: inline-block;
+    height: 41px;
+    line-height: 41px;
+    border-radius: 70px;
+    transition: 0.3s all ease;
+}
+
+
+.jsum-right a:hover {
+    /* background-color: #000000; */
+}
+
+
+/*---jsc-area start ---*/
+.jsc-area {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.jsc-top {
+    background-color: #FFF0FB;
+    border-radius: 0px 300px 300px 300px;
+    padding: 55px 0;
+    padding-left: 69px;   
+}
+
+.jsc-left img {
+    margin-top: -75px;
+    margin-bottom: -108px;
+    margin-left: -118px;
+
+}
+
+.jsc-right h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 35px;
+    margin: 0;
+    margin-left: -17px;
+}
+
+.jsc-right p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 16px 0;
+}
+
+.jsc-right a {
+    font-family: "Mosk Bold 700";
+    color: #fff;
+    font-size: 14px;
+    background-color: #FB41C6;
+    text-transform: uppercase;
+    width: 261px;
+    text-align: center;
+    display: inline-block;
+    height: 41px;
+    line-height: 41px;
+    border-radius: 70px;
+    transition: 0.3s all ease;
+}
+
+
+.jsc-right a:hover {
+    /*background-color: #000000;*/
+}
+
+/*---jst-area start ---*/
+.jst-area {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.jst-top {
+    background-color: #E3FFF2;
+    border-radius: 300px 0px 300px 300px;
+    padding: 55px 0;    
+}
+
+.jst-left img {
+    margin-left: -85px;
+    margin-top: -50px;
+    margin-bottom: -78px;
+}
+
+.jst-right h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 35px;
+    margin: 0;
+    margin-left: -17px;
+}
+
+.jst-right p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 16px 0;
+}
+
+.jst-right a {
+    font-family: "Mosk Bold 700";
+    color: #fff;
+    font-size: 14px;
+    background-color: #00E87B;
+    text-transform: uppercase;
+    width: 261px;
+    text-align: center;
+    display: inline-block;
+    height: 41px;
+    line-height: 41px;
+    border-radius: 70px;
+    transition: 0.3s all ease;
+}
+
+
+.jst-right a:hover {
+    /* background-color: #000000; */
+}
+
+
+/*---tenc-area start ---*/
+.tenc-area {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.tenc-top h2 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 35px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: -20px;
+    position: relative;
+}
+
+.tenc-top img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+
+.tenc-top p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 18px 0;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.tenc-top h6 {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 18px 0;
+    text-align: center;
+    padding-bottom: 45px;
+    display: none;
+}
+
+.tenc-top h5 {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 18px 0;
+    text-align: center;
+    padding-bottom: 45px;
+    display: none;
+}
+
+
+
+.tenc_a1 img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    height: 388px;   
+}
+
+.tenc_a2 img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    height: 388px;
+}
+
+.tenc_a3 {
+    background-image: url('img/img_7.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 388px;
+}
+.tenc_a1 {
+    background-image: url('img/img_5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 388px;
+}
+.tenc_a2 {
+    background-image: url('img/img_6.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 388px;
+}
+.see-more{
+    background-image: url('img/img_8.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    width: 213.75px;
+    height: 387px;
+}
+.tenc_aa3 {
+    display: none;
+}
+
+.tenc_a3:hover .tenc_aa3 {
+    display: block;
+}
+.tenc_aa2 {
+    display: none;
+}
+
+.tenc_a2:hover .tenc_aa2 {
+    display: block;
+}
+.tenc_aa1 {
+    display: none;
+}
+
+.tenc_a1:hover .tenc_aa1 {
+    display: block;
+}
+
+
+.tenc_aa3, .tenc_aa2, .tenc_aa1 {
+    background: rgba(0,232,123,.9);
+    height: 388px;
+}
+
+
+.tenc_aa3 h3, .tenc_aa1 h3, .tenc_aa2 h3 {
+    font-family: "Mosk Light 300";
+    color: #fff;
+    font-size: 35px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 99px;
+}
+
+.tenc_aa3 p,.tenc_aa1 p,.tenc_aa2 p {
+    font-family: "Mosk Light 300";
+    color: #fff;
+    font-size: 13px;
+    margin: 0;
+    padding: 14px 0;
+    text-align: center;
+    line-height: 16px; 
+}
+
+.tenc_aa3 h4, .tenc_aa2 h4, .tenc_aa1 h4 {
+    font-family: "Mosk Light 300";
+    color: #fff;
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.tenc_aa3 a, .tenc_aa1 a, .tenc_aa2 a {
+    font-family: "Mosk Light 300";
+    color: #fff;
+    font-size: 13px;
+    width: 127px;
+    border: 1px solid #fff;
+    height: 41px;
+    border-radius: 61px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 41px;
+    margin: auto;
+    display: block;
+    margin-top: 14px;
+    transition: 0.2s all ease;
+}
+
+.tenc_aa3 a:hover, .tenc_aa2 a:hover, .tenc_aa1 a:hover {
+    background-color: #fff;
+    color: #000000;
+    border: 1px solid #fff;
+    -webkit-filter: brightness(100%);
+}
+
+
+
+.tenc_a4 {
+    background: #E3FFF2;
+    height: 388px;
+    padding-top: 19px;
+    border-radius: 0 50px 0 0;
+}
+
+.tenc_a4 img {
+   max-width: 100%;
+   display: block;
+}
+
+
+.tenc_a4 a {
+    font-family: "Mosk Light 300";
+    color: #fff;
+    font-size: 13px;
+    width: 127px;
+    background-color: #00E87B;
+    height: 41px;
+    border-radius: 61px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 41px;
+    margin: auto;
+    display: block;
+    margin-top: 18px;
+    transition: 0.2s all ease;
+}
+
+.tenc_a4 a:hover {
+    /* background-color: #000000; */
+    color: #fff;
+}
+
+
+.tenc-area .owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    border-radius: 0px 0px 0px 50px;
+}
+
+.tenc-area .owl-carousel button.owl-dot {
+    background: #F8F8F8 !important;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    width: 63px !important;
+    height: 7px;
+    display: inline-block;
+    margin: 0 8px;
+    border-radius: 43px;
+    outline: none;
+}
+
+.tenc-area .owl-carousel button.owl-dot.active {
+    background: #13e583 !important;
+}
+
+.tenc-area .owl-dots {
+    margin-left: 166px;
+    margin-top: 28px;
+}
+
+.tenc-area .customNextBtn1 i {
+    color: #fff;
+    background-color: #12e482;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -23px;
+    cursor: pointer;
+    z-index: 999999;
+    left: 0;
+    transition: 0.3s all ease;
+}
+
+
+.tenc-area .customPrevBtn1 i {
+    color: #fff;
+    background-color: #F4F4F4;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -23px;
+    right: 297px;
+    cursor: pointer;
+    z-index: 999999;
+    transition: 0.3s all ease;
+}
+
+
+.tenc-area .customPrevBtn1 i:hover {
+      background-color: #12e482;  
+}
+
+
+/*---dntenc-area start ---*/
+.dntenc-area {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.dntenc-top h2 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 35px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: -20px;
+    position: relative;
+}
+
+.dntenc-top img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+
+.dntenc-top p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 18px 0;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.dntenc-top h6 {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 18px 0;
+    text-align: center;
+    padding-bottom: 45px;
+    display: none;
+}
+
+.dntenc-top h5 {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 18px 0;
+    text-align: center;
+    padding-bottom: 45px;
+    display: none;
+}
+
+
+.dntenc_a1 img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    height: 388px;   
+}
+
+.dntenc_a2 img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    height: 388px;
+}
+
+.dntenc_a3 {
+    background-image: url('img/img_10.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 388px;
+}
+.dntenc_a1 {
+    background-image: url('img/img_11.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 388px;
+}
+.dntenc_a2 {
+    background-image: url('img/img_9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 388px;
+}
+
+.dntenc_aa3 {
+    display: none;
+}
+
+.dntenc_a3:hover .dntenc_aa3 {
+    display: block;
+}
+.dntenc_aa2 {
+    display: none;
+}
+
+.dntenc_a2:hover .dntenc_aa2 {
+    display: block;
+}
+.dntenc_aa1 {
+    display: none;
+}
+
+.dntenc_a1:hover .dntenc_aa1 {
+    display: block;
+}
+
+.dntenc_aa3, .dntenc_aa2, .dntenc_aa1 {
+    background: rgb(0, 226, 255,.9);
+    height: 388px;
+}
+
+.dntenc_aa3 h3,.dntenc_aa1 h3 , .dntenc_aa2 h3 {
+    font-family: "Mosk Light 300";
+    color: #fff;
+    font-size: 35px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 99px;
+}
+
+.dntenc_aa3 p, .dntenc_aa1 p, .dntenc_aa2 p {
+    font-family: "Mosk Light 300";
+    color: #fff;
+    font-size: 13px;
+    margin: 0;
+    padding: 14px 0;
+    text-align: center;
+    line-height: 16px; 
+}
+
+.dntenc_aa3 h4, .dntenc_aa1 h4, .dntenc_aa2 h4 {
+    font-family: "Mosk Light 300";
+    color: #fff;
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.dntenc_aa3 a , .dntenc_aa2 a , .dntenc_aa1 a {
+    font-family: "Mosk Light 300";
+    color: #fff;
+    font-size: 13px;
+    width: 127px;
+    border: 1px solid #fff;
+    height: 41px;
+    border-radius: 61px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 41px;
+    margin: auto;
+    display: block;
+    margin-top: 42px;
+    transition: 0.2s all ease;
+}
+
+.dntenc_aa3 a:hover,.dntenc_aa2 a:hover, .dntenc_aa1 a:hover {
+    background-color: #fff;
+    color: #000000;
+    border: 1px solid #fff;
+    -webkit-filter: brightness(100%);
+}
+
+.dntenc_a4 {
+    background: #D9FBFF;
+    height: 388px;
+    padding-top: 19px;
+    border-radius: 0 50px 0 0;
+}
+
+.dntenc_a4 img {
+   max-width: 100%;
+   display: block;
+   margin: auto;
+}
+
+
+.dntenc_a4 a {
+    font-family: "Mosk Light 300";
+    color: #fff;
+    font-size: 13px;
+    width: 127px;
+    background-color: #00e2ff;
+    height: 41px;
+    border-radius: 61px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 41px;
+    margin: auto;
+    display: block;
+    margin-top: 28px;
+    transition: 0.2s all ease;
+}
+
+.dntenc_a4 a:hover {
+    /* background-color: #000000; */
+    color: #fff;
+}
+
+.dntenc-area .owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    border-radius: 0px 0px 0px 50px;
+}
+
+.dntenc-area .owl-carousel button.owl-dot {
+    background: #F8F8F8 !important;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    width: 63px !important;
+    height: 7px;
+    display: inline-block;
+    margin: 0 8px;
+    border-radius: 43px;
+    outline: none;
+}
+
+.dntenc-area .owl-carousel button.owl-dot.active {
+    background: #00e2ff !important;
+}
+
+.dntenc-area .owl-dots {
+    margin-left: 166px;
+    margin-top: 28px;
+}
+
+.dntenc-area .customNextBtn2 i {
+    color: #fff;
+    background-color: #00e2ff;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -23px;
+    cursor: pointer;
+    z-index: 999999;
+    left: 0;
+    transition: 0.3s all ease;
+}
+
+.dntenc-area .customPrevBtn2 i {
+    color: #fff;
+    background-color: #F4F4F4;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -23px;
+    right: 297px;
+    cursor: pointer;
+    z-index: 999999;
+    transition: 0.3s all ease;
+}
+
+.dntenc-area .customPrevBtn2 i:hover {
+      background-color: #00e2ff;  
+}
+
+
+/*---tpms-area start ---*/
+.tpms-area {
+    background-color: #fff;
+    padding: 80px 0;
+    margin-bottom: 135px;
+}
+
+.tpms-top h2 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 35px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: -20px;
+    position: relative;
+}
+
+.tpms-top img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.tpms-part img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+
+
+.tpms-area .customNextBtn3 i {
+    color: #fff;
+    background-color: #D1D1D1;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -93px;
+    cursor: pointer;
+    z-index: 999999;
+    left: -18px;
+    transition: 0.3s all ease;
+}
+
+.tpms-area .customPrevBtn3 i {
+    color: #fff;
+    background-color: #D1D1D1;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -93px;
+    cursor: pointer;
+    z-index: 999999;
+    right: -18px;
+    transition: 0.3s all ease;
+}
+
+/*--- last-area start ---*/
+.last-area {
+    background-color: #FFF0FB;
+    padding: 60px 0;
+    padding-bottom: 30px;
+}
+
+.last-top {
+    border-radius: 50px;
+    border: 10px solid #fff;
+    background-color: #FFF0FB;
+    padding: 15px 0;
+    margin-top: -172px;
+}
+
+.last-left {
+    padding-left: 78px;   
+}
+
+.last-left p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 14px;
+    margin: 0;
+    line-height: 20px;
+    padding-bottom: 14px;
+    padding-top: 61px;
+    padding-left: 27px;
+}
+
+.last-left form img {
+    position: absolute;
+    left: -95px;
+    bottom: 5px;
+    max-width: 26%;
+}
+
+.last-left form {
+    background-color: #fff;
+    width: 100%;
+    display: block;
+    margin: auto;
+    border: 1px solid #FB41C6;
+    border-radius: 63px;
+    padding: 15px 18px;
+    position: relative;
+}
+
+.last-left form input[type="email"] {
+    font-family: "Mosk Light 300";
+    color: #000000;
+    font-size: 19px;
+    width: 69%;
+    border: none;
+    outline: none;
+    padding: 9px 5px;
+    padding-left: 46px;
+    outline: none;
+}
+
+.last-left form input[type="email"]::
+placeholder {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+}
+
+
+.last-left form input[type="submit"] {
+    font-family: "Mosk Bold 700";
+    background-color: #FB41C6;
+    border: none;
+    width: 127px;
+    height: 41px;
+    border-radius: 38px;
+    color: #fff;
+    outline: none;
+    transition: 0.3s all ease;
+}
+
+.last-left form input[type="submit"]:hover {
+    /* background-color: #000000; */
+    color: #fff;
+}
+
+.last-right img {
+    margin-top: -51px;
+}
+
+
+
+/*--- footer-area start ---*/
+.footer-area {
+    background-color: #FFF0FB;
+    padding: 60px 0;
+    padding-top: 25px;
+}
+
+.footer_a1 ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.footer_a1 ul li {
+    display: block;
+}
+
+.footer_a1 ul li a {
+    font-family: "Mosk Medium 500";
+    color: #2C2A2A;
+    font-size: 15px;
+    display: block;
+    padding-bottom: 16px;
+}
+
+
+.footer_a2 h3 {
+    font-family: "Mosk Medium 500";
+    color: #FB41C6;
+    font-size: 15px;
+    display: block;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.footer_a2 ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.footer_a2 ul li {
+    display: inline-block;
+}
+
+.footer_a2 ul li a {
+    color: #FB41C6;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: 0.2s all ease;
+}
+
+.footer_a2 ul li a:hover {
+    -webkit-filter: brightness(100%);
+    color: #fff;
+    background: #FB41C6;
+}
+
+.footer_a2 p {
+    font-family: "Mosk Medium 500";
+    color: #FB41C6;
+    font-size: 15px;
+    display: block;
+    padding-top: 16px;
+    margin: 0;
+}
+
+
+.aemh-area2 {
+    display: none;
+}
+
+.jsum-area2 {
+    display: none;
+}
+
+.jsc-area2 {
+    display: none;
+}
+
+.jst-area2 {
+    display: none;
+}
+
+
+.last-area2 {
+    display: none;
+}
+
+
+.jsum-area3 {
+    display: none;
+}
+
+
+.jsc-area3 {
+    display: none; 
+}
+
+.jst-area3 {
+    display: none;
+}
+
+
+
+
+/*--- mobile-area start ---*/
+.mobile-area {
+    background-color:  #fff;
+    padding: 15px 15px;
+    display: none;
+}
+
+
+.mobile-part {
+    display: flex;
+}
+
+.mobile-part_a1 {
+    width: 50%;
+}
+
+.mobile-part_a2 {
+    width: 50%;
+}
+
+.mobile-part_a2 ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    float: right;
+    padding-top: 8px;
+}
+
+.mobile-part_a2 ul li {
+    float: left;
+}
+
+
+.mobile-part_a2 ul li:nth-child(1) a {
+    font-family: "Mosk Bold 700";
+    color: #000000;
+    font-size: 18px;
+    display: block;
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
+.mobile-part_a2 ul li:nth-child(1) a:after {
+    content: "";
+    clear: both;
+    width: 10px;
+    background-color: #FB41C6;
+    height: 2px;
+    display: block;
+    margin-top: -4px;
+}
+
+.mobile-part_a2 ul li:nth-child(2) a {
+    color: #000000;
+    font-size: 25px;
+    display: block;
+    margin-top: -2px;
+    margin-left: 15px;   
+}
+
+/*--- dnmobile-area start ---*/
+.dnmobile-area {
+    background-color: #fff;
+    padding: 20px 0;
+    display:  none;
+}
+
+
+.dnmobile-part_a1 ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.dnmobile-part_a1 ul Li {
+    display: inline-block;
+    margin: 0 0px;
+}
+
+
+.dnmobile-part_a1 ul li:nth-child(1) a {
+    font-family: "Mosk Bold 700";
+    color: #FB41C6;
+    font-size: 11px;
+    text-transform: uppercase;
+    width: 127px;
+    height: 41px;
+    display: block;
+    border: 1px solid #FB41C6;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 41px;
+    transition: 0.3s all ease;
+}
+
+
+.dnmobile-part_a1 ul li:nth-child(2) a {
+    font-family: "Mosk Bold 700";
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    width: 127px;
+    height: 41px;
+    display: block;
+    background-color: #FB41C6;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 41px;
+    transition: 0.2s all ease;
+}
+
+
+.dnmobile-part_a1 h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 28px;
+    text-align: center;
+    margin: 0;
+    padding-top: 14px;
+    padding-bottom: 5px;
+}
+
+
+.dnmobile-part_a1 p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+    padding: 4px 0px;
+}
+
+
+.dnmobile-part_a2 a {
+    font-family: "Mosk Bold 700";
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    width: 261px;
+    height: 41px;
+    display: block;
+    background-color: #00E2FF;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 41px;
+    transition: 0.2s all ease;
+    display: list-item;
+    margin: auto;
+    margin-top: 14px;
+}
+
+.dnmobile-part_a3 ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    padding-top: 14px;
+}
+
+.dnmobile-part_a3 ul Li {
+    display: inline-block;
+    margin: 0 0px;
+}
+
+
+.dnmobile-part_a3 ul li:nth-child(1) a {
+    font-family: "Mosk Bold 700";
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    width: 127px;
+    height: 41px;
+    display: block;
+    background-color: #FB41C6;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 41px;
+    transition: 0.3s all ease;
+}
+
+
+.dnmobile-part_a3 ul li:nth-child(2) a {
+    font-family: "Mosk Bold 700";
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    width: 127px;
+    height: 41px;
+    display: block;
+    background-color: #00E87B;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 41px;
+    transition: 0.2s all ease;
+}
+
+
+.dnmobile-part_a4 img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 36px;
+    margin-bottom: -29px;
+}
+
+
+.last-area3 {
+    display: none;
+}
+
+
+/*---mobilelast-area start ---*/
+.mobilelast-area {
+    background-color: #fff0fb;
+    padding: 20px 15px;
+    display: none;
+}
+
+.mobilelast-part_a {
+    display: flex;
+}
+
+.mobilelast-part_a1 {
+    width: 50%;
+}
+
+.mobilelast-part_a2 {
+    width: 50%;
+}
+
+.tmobilelast-part_a1 ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.tmobilelast-part_a1 ul li {
+    display: block;
+}
+
+.tmobilelast-part_a1 ul li a {
+    font-family: "Mosk Medium 500";
+    color: #2C2A2A;
+    font-size: 15px;
+    display: block;
+    padding-bottom: 8px;
+}
+
+
+.smobilelast-part_a1 {
+    padding-top: 25px;
+}
+
+
+.smobilelast-part_a1 ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.smobilelast-part_a1 ul li {
+    display: block;
+}
+
+.smobilelast-part_a1 ul li a {
+    font-family: "Mosk Medium 500";
+    color: #2C2A2A;
+    font-size: 15px;
+    display: block;
+    padding-bottom: 8px;
+}
+
+
+/*--- main1-area start  ---*/
+.main1-area {
+    background-color: #fff1fb;
+    position: absolute;
+    width: 100%;
+    z-index: 999999;
+    top: 0;
+    display: none;
+}
+
+.header1-area {
+     background-color: #fff1fb;   
+}
+
+.header_a3 ul li:nth-child(3) a {
+    font-family: "Mosk Bold 700";
+    color: #FB41C6;
+    font-size: 16px;
+    display: block;
+    margin-top: 6px;
+    margin-left: 15px;
+}
+
+
+.header_a3 ul li:nth-child(4) a {
+     color: #FB41C6;   
+}
+
+
+/*--- menuhd-area start  ---*/
+.menuhd-area {
+    background-color: #fff1fb;
+    padding: 40px 0;
+    padding-bottom: 100px;
+}
+
+
+.menuhd-left ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menuhd-left ul li {
+    display: block;
+}
+
+.menuhd-left ul li a {
+    font-family: "Mosk Light 300";
+    color: #FB41C6;
+    font-size: 24px;
+    display: block;
+    padding-bottom: 13px;
+    text-transform: uppercase;
+}
+
+
+
+
+.last-leftt {
+    padding-left: 78px;   
+}
+
+.last-leftt p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 14px;
+    margin: 0;
+    line-height: 20px;
+    padding-bottom: 14px;
+    padding-top: 61px;
+    padding-left: 27px;
+}
+
+.last-leftt form img {
+    position: absolute;
+    left: -95px;
+    bottom: 5px;
+    max-width: 26%;
+}
+
+.last-leftt form {
+    background-color: #fff;
+    width: 100%;
+    display: block;
+    margin: auto;
+    border: 1px solid #FB41C6;
+    border-radius: 63px;
+    padding: 15px 18px;
+    position: relative;
+}
+
+.last-leftt form input[type="email"] {
+    font-family: "Mosk Light 300";
+    color: #000000;
+    font-size: 19px;
+    width: 64%;
+    border: none;
+    outline: none;
+    padding: 9px 5px;
+    padding-left: 57px;
+    outline: none;
+}
+
+.last-leftt form input[type="email"]::
+placeholder {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+}
+
+
+.last-leftt form input[type="submit"] {
+    font-family: "Mosk Bold 700";
+    background-color: #FB41C6;
+    border: none;
+    width: 127px;
+    height: 41px;
+    border-radius: 38px;
+    color: #fff;
+    outline: none;
+    transition: 0.3s all ease;
+}
+
+.last-leftt form input[type="submit"]:hover {
+    /* background-color: #000000; */
+    color: #fff;
+}
+
+
+.menuhd-right_a1 img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    margin-right: 0;
+    margin-top: 49px;
+}
+
+
+.last-leftt h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-left: 28px; 
+}
+
+.last-leftt p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 14px;
+    margin: 0;
+    line-height: 20px;
+    padding-bottom: 14px;
+    padding-top: 8px;
+    padding-left: 27px;
+}
+
+
+
+.ttfooter_a2 ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    padding-top: 20px;
+    float: right;
+}
+
+.ttfooter_a2 ul li {
+    display: inline-block;
+    float: left;
+}
+
+.ttfooter_a2 ul li a {
+    color: #FB41C6;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: 0.2s all ease;
+}
+
+.ttfooter_a2 ul li a:hover {
+    /* background-color: #000000; */
+    color: #fff;
+}
+
+
+
+/*--- mainmobile-area start ---*/
+.mainmobile-area {
+    background-color: #ffeff9;
+    padding-bottom: 58px;
+    position: absolute;
+    width: 100%;
+    z-index: 9999999;
+    top: 0;
+    display: none;
+}
+
+
+.mainmobile-area .mobile-part_a2 ul li:nth-child(2) a {
+    color: #fb41c6;
+}
+
+.mainmobile-area .mobile-part_a2 ul li:nth-child(1) a {
+      color: #fb41c6;  
+}
+
+.mainmobile-area .mobile-area {
+      background-color: #ffeff9; 
+}
+
+.mainmobile-area .dnmobile-part_a1 ul li:nth-child(2) a {
+     background-color: #fff;
+     border: 1px solid #fb41c6;
+     color: #fb41c6;
+}
+
+.mainmobile-area .dnmobile-part_a1 ul {
+    padding-top: 25px;
+}
+
+.mainmobile-area .ttfooter_a2 {
+    position: relative;
+}
+
+
+.top_a1 {
+    overflow: hidden;
+}
+
+    .btn:hover {-webkit-filter: brightness(90%); }
+    a:hover {-webkit-filter: brightness(90%); }
+
+
+    
+
+
+/*--- ---*/
+.main-slider6 .owl-dots {
+    margin-left: -272px;
+    margin-top: -80px;
+    position: relative;
+    z-index: 999999999999;
+    transform: rotate(89deg);
+}
+
+ .main-slider6 .owl-carousel button.owl-dot {
+    background: #F4F4F4 !important;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    width: 71px;
+    height: 4px;
+    border-radius: 30px;
+    margin-right: 14px;
+    outline: none;
+}
+
+ .main-slider6 .owl-carousel button.owl-dot.active {
+       background: #FB41C6 !important; 
+ } 
+
+
+.aemh-right_c1 {
+    position: relative;
+    height: 457px;
+    padding-top: 34px;
+}
+
+.aemh-right_c2 {
+    background-image: url(img/img_15.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 192px 0px;
+    width: 270.21px;
+    display: block;
+    height: 387.21px;
+    margin: auto;
+}
+
+.aemh-right_c2 img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: -30px;
+}
+
+.img_c1 {
+    max-width: 28%;
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: -5px;
+}
+
+.img_c2 {
+    display: block;
+    position: absolute;
+    bottom: 195px;
+    max-width: 35%;
+    transform: rotate(-90deg);
+    right: -21px;
+}
+
+.img_c3 {
+    max-width: 15%;
+    display: block;
+    position: absolute;
+    bottom: -55px;
+    transform: rotate(90deg);
+    left: 120px;
+}
+
+
+.img_c4 {
+    max-width: 23%;
+    display: block;
+    position: absolute;
+    right: 21px;
+    top: 39px;
+}
