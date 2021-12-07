@@ -134,7 +134,7 @@ ul {
     background-color: #FFD000;
 }
 .header_a1 img {
-    max-width: 100%;
+    max-width: 300px;
     display: block;
 }
 
@@ -173,13 +173,15 @@ ul {
 }
      */
      .menuhd-left ul li:hover{
-        text-decoration-line: line-through;
+        /**text-decoration-line: line-through;*/
      }
      
 .hovlink1:hover .hovim1 {
     display: block;
 }
-   
+select{
+    -webkit-appearance: none;
+}
 .hovlink2:hover .hovim2 {
     display: block;
 }
@@ -888,7 +890,7 @@ ul {
     position: absolute;
     margin-top: -23px;
     cursor: pointer;
-    z-index: 999999;
+    z-index: 999;
     left: 0;
     transition: 0.3s all ease;
 }
@@ -906,7 +908,7 @@ ul {
     margin-top: -23px;
     right: 297px;
     cursor: pointer;
-    z-index: 999999;
+    z-index: 999;
     transition: 0.3s all ease;
 }
 
@@ -1166,7 +1168,7 @@ ul {
     position: absolute;
     margin-top: -23px;
     cursor: pointer;
-    z-index: 999999;
+    z-index: 999;
     left: 0;
     transition: 0.3s all ease;
 }
@@ -1183,7 +1185,7 @@ ul {
     margin-top: -23px;
     right: 297px;
     cursor: pointer;
-    z-index: 999999;
+    z-index: 999;
     transition: 0.3s all ease;
 }
 
@@ -1235,7 +1237,7 @@ ul {
     position: absolute;
     margin-top: -93px;
     cursor: pointer;
-    z-index: 999999;
+    z-index: 999;
     left: -18px;
     transition: 0.3s all ease;
 }
@@ -1251,7 +1253,7 @@ ul {
     position: absolute;
     margin-top: -93px;
     cursor: pointer;
-    z-index: 999999;
+    z-index: 999;
     right: -18px;
     transition: 0.3s all ease;
 }
@@ -1866,7 +1868,7 @@ placeholder {
 
 
 .menuhd-right_a1 img {
-    max-width: 100%;
+    max-width: 100px;
     display: block;
     margin: auto;
     margin-right: 0;

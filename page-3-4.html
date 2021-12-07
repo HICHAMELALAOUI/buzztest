@@ -292,7 +292,7 @@
                       <td><i class="grey fas fa-male"></i></td>
                       <td><i class="grey fas fa-male"></i></td>
                     </tr>
-                    <tr><td colspan="6">Homme (40%)</td></tr>
+                    <tr><td class="font-weight-bold" colspan="6">Homme (40%)</td></tr>
                   </table>
                 
                   <table class="d-inline-block">
@@ -312,7 +312,7 @@
                       <td><i class="grey fas fa-female"></i></td>
                       <td><i class="grey fas fa-female"></i></td>
                     </tr>
-                    <tr><td colspan="6">Femme (60%)</td></tr>
+                    <tr><td class="font-weight-bold" colspan="6">Femme (60%)</td></tr>
                   </table>
                   </div>
                   <div class="col-xs-12 col-md-6">
@@ -333,7 +333,8 @@
                   </div>
                   <div class="col-xs-12 col-md-6">
                     <table class="d-inline-block">
-                      <tr><th style="padding: 31px;"><span style="width: 15px;height: 15px; background: #FB41C6;  display: inline-block;"></span> 18-35 ans<br>
+                      <tr><th style="padding: 31px;"> Âges<br>
+                        <span style="width: 15px;height: 15px; background: #FB41C6;  display: inline-block;"></span> 18-35 ans<br>
                         <span style="width: 15px;height: 15px; background: #00E2FF;  display: inline-block;"></span> 35-49 ans<br>
                         <span style="width: 15px;height: 15px; background: #00E87B;  display: inline-block;"></span> 50 ans et plus</th>
                       <th><div class="pie pie2"></div></th>
@@ -352,12 +353,12 @@
                 <span class="col-lg-2 col-6 col-md-2 col-sm-2 col-xs-6">éfficacité </span><span class="col-lg-2 col-6 col-md-2 col-sm-2 col-xs-6"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
                 <span class="col-lg-2 col-6 col-md-2 col-sm-2 col-xs-6"></span>
               </div>
-              <div class="py-2 my-3 bg-secondary desc-button radius-right">
-                <span class="py-2 bg-primary px-2 radius-right" style="padding: 11px !important;">Tous les avis</span>
-                <span class="bg-secondary second-tab">Mieux noté</span>
-                Moins bien notés
+              <div class="py-2 my-3 bg-secondary desc-button radius-right" style="cursor: pointer;">
+                <span onclick="openTab2('allreviews')" class="py-2 bg-primary px-2 radius-right" style="padding: 11px !important;">Tous les avis</span>
+                <span onclick="openTab2('goodreviews')" class="bg-secondary second-tab">Mieux noté</span>
+                <span onclick="openTab2('poorreviews')">Moins bien notés </span>
               </div>
-              <div class="border-pink p-3 radius-lbrt">
+              <div id="allreviews" class="tab2 border-pink p-3 radius-lbrt">
                 <div>
                   <img style="width: 100px;height: auto;float:left;" src="img/7.png">
                   <div>
@@ -390,6 +391,54 @@
                     <span class="text-primary"><b>Sonia, Casablanca</b></span>
                     <div class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean placerat, mauris tempor rhoncus suscipit, orci dolor porttitor felis, vitae sodales lectus libero in nunc. Sed sit amet tellus sed nunc vulputate dictum eget eu metus. Ut aliquam commodo imperdiet.</div>
                     <span class="avis-mobile"><span style="font-weight: 600;" class="p-2 my-3 bg-secondary desc-button radius-right text-success">
+                      <img class="smilie" src="img/smilie-B.png">  Mon avis <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </span>
+                      <span class="note yellow-note">3.5/5</span>
+                    <button type="button" class="btn btn-success-2 rounded-circle" style="margin-top: 5px;">découvrez</button></span>
+                  </div>
+                </div>
+                <div class="text-center mt-3">
+               <img src="img/next-filled2.svg" style="height: auto; transform: rotate(180deg)"> <span class="page bg-secondary rounded-circle">1</span><span class="page bg-secondary rounded-circle">2</span><span class="page bg-secondary rounded-circle  bg-success text-white">3</span><span class="page bg-secondary rounded-circle ">4</span><img src="img/next-filled2.svg" style="height: auto;">
+              </div>
+              </div>
+              <div id="goodreviews" style="display: none;" class="tab2 border-pink p-3 radius-lbrt">
+                <div>
+                  <img style="width: 100px;height: auto;float:left;" src="img/7.png">
+                  <div>
+                    <span class="text-primary"><b>Sonia, Casablanca</b></span>
+                    <div class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean placerat, mauris tempor rhoncus suscipit, orci dolor porttitor felis, vitae sodales lectus libero in nunc. Sed sit amet tellus sed nunc vulputate dictum eget eu metus. Ut aliquam commodo imperdiet.</div>
+                    <span class="avis-mobile"><span style="font-weight: 600;" class="p-2 my-3 bg-secondary desc-button radius-right text-success">
+                    <img class="smilie" src="img/smilie-A.png">  Mon avis <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </span>
+                      <span class="note">5.5/5</span>
+                    <button type="button" class="btn btn-success-2 rounded-circle" style="margin-top: 5px;">découvrez</button></span>
+                  </div>
+                </div>
+               
+                <hr>
+                <div>
+                  <img style="width: 100px;height: auto;float:left;" src="img/7.png">
+                  <div>
+                    <span class="text-primary"><b>Sonia, Casablanca</b></span>
+                    <div class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean placerat, mauris tempor rhoncus suscipit, orci dolor porttitor felis, vitae sodales lectus libero in nunc. Sed sit amet tellus sed nunc vulputate dictum eget eu metus. Ut aliquam commodo imperdiet.</div>
+                    <span class="avis-mobile"><span style="font-weight: 600;" class="p-2 my-3 bg-secondary desc-button radius-right text-success">
+                      <img class="smilie" src="img/smilie-C.png">  Mon avis <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </span>
+                      <span class="note red-note">1.5/5</span>
+                    <button type="button" class="btn btn-success-2 rounded-circle" style="margin-top: 5px;">découvrez</button></span>
+                  </div>
+                </div>
+                <div class="text-center mt-3">
+               <img src="img/next-filled2.svg" style="height: auto; transform: rotate(180deg)"> <span class="page bg-secondary rounded-circle">1</span><span class="page bg-secondary rounded-circle">2</span><span class="page bg-secondary rounded-circle  bg-success text-white">3</span><span class="page bg-secondary rounded-circle ">4</span><img src="img/next-filled2.svg" style="height: auto;">
+              </div>
+              </div>
+              <div id="poorreviews" style="display: none;" class="tab2 border-pink p-3 radius-lbrt">
+                <div>
+                  <img style="width: 100px;height: auto;float:left;" src="img/7.png">
+                  <div>
+                    <span class="text-primary"><b>Sonia, Casablanca</b></span>
+                    <div class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean placerat, mauris tempor rhoncus suscipit, orci dolor porttitor felis, vitae sodales lectus libero in nunc. Sed sit amet tellus sed nunc vulputate dictum eget eu metus. Ut aliquam commodo imperdiet.</div>
+                    <span class="avis-mobile"><span style="font-weight: 600;" class="p-2 my-3 bg-secondary desc-button radius-right text-success">
                       <img class="smilie" src="img/smilie-C.png">  Mon avis <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                     </span>
                       <span class="note red-note">1.5/5</span>
@@ -404,8 +453,8 @@
       </div>
     </section>
     <!-- tenc-area start -->
-		 <div class="desktop tenc-area" style="padding: 50px 0 170px 0;margin-top: -67px;">
-      <div class="container">
+		 <div class="tenc-area" style="padding: 50px 0 170px 0;margin-top: -67px;">
+      <div class="container pt-4">
           <div class="tenc-top">
               <h2 class="font-weight-bold">Test en cours</h2>
                <img src="img/rg-1.png" alt="images not found"/>
@@ -773,6 +822,28 @@
           document.getElementsByClassName('desc-button')[0].style.border= "1px solid #E3FFF2";
           document.getElementsByClassName('desc-button')[0].style.background= "white";
         } else{
+          document.getElementsByClassName('bg-info')[0].style.background = "white";
+          document.getElementsByClassName('desc-button')[0].style.border= "1px solid #E3FFF2";
+          document.getElementsByClassName('desc-button')[0].style.background= "#E3FFF2";
+        }
+      }
+      function openTab2(cityName){
+        var i;
+        var x = document.getElementsByClassName("tab2");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        document.getElementById(cityName).style.display = "block";
+        if(cityName=="allreviews"){
+          console.log('ee');
+          document.getElementsByClassName('bg-info')[0].style.background = "#E3FFF2";
+          document.getElementsByClassName('desc-button')[0].style.border= "1px solid #E3FFF2";
+          document.getElementsByClassName('desc-button')[0].style.background= "white";
+        } else if("goodreviews"){
+          document.getElementsByClassName('bg-info')[0].style.background = "white";
+          document.getElementsByClassName('desc-button')[0].style.border= "1px solid #E3FFF2";
+          document.getElementsByClassName('desc-button')[0].style.background= "#E3FFF2";
+        }else{
           document.getElementsByClassName('bg-info')[0].style.background = "white";
           document.getElementsByClassName('desc-button')[0].style.border= "1px solid #E3FFF2";
           document.getElementsByClassName('desc-button')[0].style.background= "#E3FFF2";
