@@ -353,10 +353,10 @@
                 <span class="col-lg-2 col-6 col-md-2 col-sm-2 col-xs-6">éfficacité </span><span class="col-lg-2 col-6 col-md-2 col-sm-2 col-xs-6"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
                 <span class="col-lg-2 col-6 col-md-2 col-sm-2 col-xs-6"></span>
               </div>
-              <div class="py-2 my-3 bg-secondary desc-button radius-right" style="cursor: pointer;">
-                <span onclick="openTab2('allreviews')" class="py-2 bg-primary px-2 radius-right" style="padding: 11px !important;">Tous les avis</span>
-                <span onclick="openTab2('goodreviews')" class="bg-secondary second-tab">Mieux noté</span>
-                <span onclick="openTab2('poorreviews')">Moins bien notés </span>
+              <div class="py-2 my-3 bg-secondary desc-button radius-right alltabs" style="cursor: pointer;padding-right: 0;">
+                <span onclick="openTab2('allreviews')" class="tabone py-2 bg-primary px-2 radius-right" style="padding: 11px  5px !important;">Tous les avis</span>
+                <span onclick="openTab2('goodreviews')" class="tabtwo bg-secondary second-tab">Mieux noté</span>
+                <span onclick="openTab2('poorreviews')" class="tabtree">Moins bien notés </span>
               </div>
               <div id="allreviews" class="tab2 border-pink p-3 radius-lbrt">
                 <div>
@@ -835,18 +835,28 @@
         }
         document.getElementById(cityName).style.display = "block";
         if(cityName=="allreviews"){
-          console.log('ee');
-          document.getElementsByClassName('bg-info')[0].style.background = "#E3FFF2";
-          document.getElementsByClassName('desc-button')[0].style.border= "1px solid #E3FFF2";
-          document.getElementsByClassName('desc-button')[0].style.background= "white";
-        } else if("goodreviews"){
-          document.getElementsByClassName('bg-info')[0].style.background = "white";
-          document.getElementsByClassName('desc-button')[0].style.border= "1px solid #E3FFF2";
-          document.getElementsByClassName('desc-button')[0].style.background= "#E3FFF2";
+          
+          document.getElementsByClassName('second-tab')[0].style.background='#FAFAFA' ;
+          document.getElementsByClassName('second-tab')[0].style.color='black' ;
+          document.getElementsByClassName('tabone')[0].style.background= "#FB41C6";
+          document.getElementsByClassName('tabone')[0].style.color= "white";
+          document.getElementsByClassName('tabtree')[0].style.background= "#FAFAFA";
+          document.getElementsByClassName('tabtree')[0].style.color= "black";
+        } else if(cityName=="goodreviews"){
+          document.getElementsByClassName('second-tab')[0].style.background='#FB41C6' ;
+          document.getElementsByClassName('second-tab')[0].style.color='white' ;
+          document.getElementsByClassName('second-tab')[0].style.border='none' ;
+          document.getElementsByClassName('tabone')[0].style.background= "#FAFAFA";
+          document.getElementsByClassName('tabone')[0].style.color= "black";
+          document.getElementsByClassName('tabtree')[0].style.background= "#FAFAFA";
+          document.getElementsByClassName('tabtree')[0].style.color= "black";
         }else{
-          document.getElementsByClassName('bg-info')[0].style.background = "white";
-          document.getElementsByClassName('desc-button')[0].style.border= "1px solid #E3FFF2";
-          document.getElementsByClassName('desc-button')[0].style.background= "#E3FFF2";
+          document.getElementsByClassName('second-tab')[0].style.background='#FAFAFA' ;
+          document.getElementsByClassName('second-tab')[0].style.color='black' ;
+          document.getElementsByClassName('tabone')[0].style.background= "#FAFAFA";
+          document.getElementsByClassName('tabone')[0].style.color= "black";
+          document.getElementsByClassName('tabtree')[0].style.background= "#FB41C6";
+          document.getElementsByClassName('tabtree')[0].style.color= "white";
         }
       }
       </script>

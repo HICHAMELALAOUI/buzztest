@@ -48,10 +48,14 @@ body{
 .row i{
     font-size: 13px;
 }
+.tabtree{
+    padding: 11px;
+    border-radius: 0 50px 50px 0;
+}
 .second-tab{
     border: 1px solid #E3FFF2;
     border-left: none;
-    padding: 7px;
+    padding: 11px;
     border-radius: 0 50px 50px 0;
 }
 .margin-bottom{
