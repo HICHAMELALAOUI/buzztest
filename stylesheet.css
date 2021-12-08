@@ -287,10 +287,12 @@ body{
     font-weight: 600;
     color:#FB41C6;
     height: 26px;
+    font-size: 16px;
 }
 .select-test option{
     border: none;
     height: 26px;
+    font-size: 16px;
 }
 /** for mobile */
 select:focus-visible {
