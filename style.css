@@ -179,7 +179,7 @@ ul {
 .hovlink1:hover .hovim1 {
     display: block;
 }
-select{
+select, select:hover, select:active, select:focus{
     -webkit-appearance: none;
 }
 .hovlink2:hover .hovim2 {
