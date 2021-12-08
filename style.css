@@ -180,7 +180,9 @@ ul {
     display: block;
 }
 select, select:hover, select:active, select:focus{
-    -webkit-appearance: none;
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
 }
 .hovlink2:hover .hovim2 {
     display: block;
