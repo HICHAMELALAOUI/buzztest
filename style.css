@@ -636,7 +636,7 @@ select, select:hover, select:active, select:focus{
 }
 
 .tenc-top h2 {
-    font-family: "Mosk Light 300";
+    font-family: "Mosk Bold 700";
     color: #2C2A2A;
     font-size: 35px;
     margin: 0;
@@ -790,11 +790,11 @@ select, select:hover, select:active, select:focus{
 }
 
 .tenc_aa3 a, .tenc_aa1 a, .tenc_aa2 a {
-    font-family: "Mosk Light 300";
+    font-family: "Mosk Bold 700";
     color: #fff;
     font-size: 13px;
     width: 127px;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     height: 41px;
     border-radius: 61px;
     text-align: center;
@@ -927,7 +927,7 @@ select, select:hover, select:active, select:focus{
 }
 
 .dntenc-top h2 {
-    font-family: "Mosk Light 300";
+    font-family: "Mosk Bold 700";
     color: #2C2A2A;
     font-size: 35px;
     margin: 0;
@@ -1070,11 +1070,11 @@ select, select:hover, select:active, select:focus{
 }
 
 .dntenc_aa3 a , .dntenc_aa2 a , .dntenc_aa1 a {
-    font-family: "Mosk Light 300";
+    font-family: "Mosk Bold 700";
     color: #fff;
     font-size: 13px;
     width: 127px;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     height: 41px;
     border-radius: 61px;
     text-align: center;
@@ -1204,7 +1204,7 @@ select, select:hover, select:active, select:focus{
 }
 
 .tpms-top h2 {
-    font-family: "Mosk Light 300";
+    font-family: "Mosk Bold 700";
     color: #2C2A2A;
     font-size: 35px;
     margin: 0;

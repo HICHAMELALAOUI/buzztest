@@ -293,12 +293,49 @@ body{
     border: none;
     height: 26px;
     font-size: 16px;
+    color: gray;
 }
-/** for mobile */
+
 select:focus-visible {
     outline: none;
 }
+.test-form-item{
+    background: white;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 8px;
+    margin: 8px;
+    color: #D1D1D1;
+}
+.text-test-form{
+    padding-left: 5px;
+    display: inline-block;
+    width: 76%;
+    text-align: left;
+    color: #D1D1D1;
+}
+.test-radio{
+    float: right;
+    margin-right: 13px;
+    padding-top: 3px;
+    color: white;
+}
+.test-radio label {display: inline; padding: 0 7px; position: relative; margin: 10px;}
+.test-radio label input {display: none;}
+.test-radio label span { width: 30px; height: 30px; padding: 6px 0px; position: absolute; overflow: hidden; border-radius: 100%; background: #F4F4F4;}
+.test-radio input:checked + span {background: #00E87B; border-color: #00E87B;}
+.test-radio2 label {float: left; color: white;margin: 10px 7px 0 0;}
+.test-radio2 label input {display: none;}
+.test-radio2 label span { padding: 8px 9px;
+    overflow: hidden;
+    border-radius: 100%;
+    background: #F4F4F4;}
+.test-radio2 input:checked + span {background: #00E87B; border-color: #00E87B;}
+/** for mobile */
 @media (max-width: 480px) {
+    .text-test-form {
+        width: 68%;
+    }
     .menuhd-left ul li:hover {
         text-decoration-line: none !important;
     }
