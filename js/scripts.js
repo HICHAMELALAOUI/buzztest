@@ -275,6 +275,65 @@
 
 
 
+
+
+
+
+
+
+
+   //slider15
+  jQuery(document).ready(function() {
+	 $(".slider18").owlCarousel({
+	 	"items" : 5,
+	 	"margin" : 15,
+	 	"border-radius" : 52, 
+	 	"autoplay": false,	 	
+	 	"autoplayTimeout" : 2000,
+	 	"loop" : true,
+	 	"nav" : false,
+	 	"dop" : true,
+	 	"responsive" : {
+	 		0 : {
+	 			"items" : 1
+	 		},
+	 		576 : {
+	 			"items" : 1
+	 		},
+	 		767 : {
+	 			"items" : 1
+	 		},
+	 		991 : {
+	 		 	"items" : 1
+	 		}
+
+
+	 	}
+	 });
+
+
+
+	var owl = $('.slider18');
+	owl.owlCarousel();
+	// Go to the next item
+	$('.customNextBtn18').click(function() {
+	    owl.trigger('next.owl.carousel');
+	})
+	// Go to the previous item
+	$('.customPrevBtn18').click(function() {
+	    // With optional speed parameter
+	    // Parameters has to be in square bracket '[]'
+	    owl.trigger('prev.owl.carousel', [300]);
+	})
+
+	});
+
+
+
+
+
+
+
    jQuery(".menu1").click(function(){
      jQuery(".main1-area").show();
    });
@@ -293,6 +352,44 @@
   jQuery(".menu4").click(function(){
      jQuery(".mainmobile-area").hide();
    });
+
+
+
+
+
+
+
+
+  //slider19
+  jQuery(document).ready(function() {
+	 $(".slider19").owlCarousel({
+	 	"items" : 5,
+	 	"margin" : 15,
+	 	"border-radius" : 52, 
+	 	"autoplay": false,	 	
+	 	"autoplayTimeout" : 2000,
+	 	"loop" : true,
+	 	"nav" : false,
+	 	"dop" : true,
+	 	"responsive" : {
+	 		0 : {
+	 			"items" : 1
+	 		},
+	 		576 : {
+	 			"items" : 1
+	 		},
+	 		767 : {
+	 			"items" : 1
+	 		},
+	 		991 : {
+	 		 	"items" : 1
+	 		}
+
+
+	 	}
+	 });
+
+	});
 
 				
 		

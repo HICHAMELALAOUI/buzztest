@@ -1,0 +1,873 @@
+
+
+
+/*---- aemht-area start ---*/
+.aemht-area {
+    background-color: #fff;
+    padding: 180px 0;
+    padding-bottom: 80px;
+}
+
+.aemht-area .container {
+    max-width: 1080px;
+}
+
+.aemht-left h2 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 35px;
+    margin: 0;
+    padding-top: 80px;
+}
+
+
+.aemht-left p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 28px 0px;
+    padding-bottom: 52px;    
+}
+
+
+.aemht-left a {
+    font-family: "Mosk Bold 700";
+    color: #fff;
+    font-size: 17px;
+    background-color: #FB41C6;
+    text-transform: uppercase;
+    width: 194.62px;
+    display: inline-block;
+    height: 62.83px;
+    line-height: 41px;
+    border-radius: 70px;
+    transition: 0.3s all ease;
+    text-align: center;
+    line-height: 62.83px;    
+}
+
+
+.aemht-right {
+    position: relative;
+}
+
+.aemht-right_a1 img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.aemht-a1 {
+    width: 107.47px;
+    height: 108px;
+    position: fixed;
+    top: 142px;
+    right: 96px;
+    z-index: 9999999;
+}
+
+.aemht-a2 {
+    width: 67.21px;
+    height: 67.21px;
+    position: absolute;
+    top: 50%;
+    left: 44%;
+    right: 44%;    
+}
+
+/*--- dnaemht-area start ---*/
+.dnaemht-area {
+    background-image: url('img/bg-5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 319px 0;
+}
+
+
+/*---- wcsb-area start ---*/
+.wcsb-area {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.wcsb-area .container {
+    max-width: 1080px;
+}
+
+
+.wcsb-top h2 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 35px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+
+
+.wcsb-top h2:after {
+    content: "";
+    display: block;
+    background-color: #FFF0FB;
+    width: 394px;
+    height: 18px;
+    margin: auto;
+    margin-top: -22px;
+}
+
+.wcsb-top p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 18px 0;
+    text-align: center;
+    padding-bottom: 58px;
+}
+
+
+.wcsb_part_a1 {
+    background: white;
+    width: 135px;
+    height: 108px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    box-shadow: 0px 3px 4px rgb(0 0 0 / 12%);
+}
+
+.wcsb_part_a1 img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.wcsb_part_a h3 {
+    font-family: "Mosk Bold 700";
+    color: #3B5998;
+    font-size: 20px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wcsb_part_a p {
+    font-family: "Mosk Light 300";
+    color: #000000;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    padding-top: 12px;
+}
+
+
+
+
+
+
+/*----pflstep-area start ---*/
+.pflstep-area {
+    background-color: #fff;
+    padding: 80px 0;
+    padding-top: 10px;
+}
+
+.pflstep-area .container {
+    max-width: 1080px;
+}
+
+.pflstep-top h2 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 35px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+
+
+.pflstep-top h2:after {
+    content: "";
+    display: block;
+    background-color: #FFF0FB;
+    width: 170px;
+    height: 20px;
+    margin: auto;
+    margin-top: -22px;
+}
+
+.pflstep-top p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 18px 0;
+    text-align: center;
+    padding-bottom: 58px;
+}
+
+
+.pflstep-left h2 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 65px;
+    margin: 0;
+    padding-top: 127px;
+}
+
+.pflstep-left p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 28px 0px;
+    padding-bottom: 52px;
+}
+
+.pflstep-right {
+    position: relative;
+}
+
+.pflstep-right1 img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.pflstep-right2 img {
+    position: absolute;
+    right: 106px;
+    bottom: -145px;
+}
+
+
+
+
+
+
+
+
+
+/*----pflstept-area start ---*/
+.pflstept-area {
+    background-color: #fff;
+    padding: 80px 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+.pflstept-area .container {
+    max-width: 1080px;
+}
+
+
+
+.pflstept-left h2 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 65px;
+    margin: 0;
+    padding-top: 127px;
+}
+
+.pflstept-left p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 28px 0px;
+    padding-bottom: 52px;
+}
+
+.pflstept-right {
+    position: relative;
+}
+
+.pflstept-right1 img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.pflstept-right2 img {
+    position: absolute;
+    right: -158px;
+    bottom: -166px;
+}
+
+
+
+
+
+
+
+
+/*----pflsteptt-area start ---*/
+.pflsteptt-area {
+    background-color: #fff;
+    padding: 80px 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+.pflsteptt-area .container {
+    max-width: 1080px;
+}
+
+
+
+.pflsteptt-left h2 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 65px;
+    margin: 0;
+    padding-top: 127px;
+}
+
+.pflsteptt-left p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 28px 0px;
+    padding-bottom: 52px;
+}
+
+.pflsteptt-right {
+    position: relative;
+}
+
+.pflsteptt-right1 img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: -71px;
+    margin-left: 8px;
+}
+
+.pflsteptt-right2 img {
+    position: absolute;
+    bottom: -181px;
+    left: -73px;
+}
+
+.pflstepttt-left {
+    margin-left: -29px;
+}
+
+
+
+/*----pflstepttt-area start ---*/
+.pflstepttt-area {
+    background-color: #fff;
+    padding: 80px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pflstepttt-area .container {
+    max-width: 1080px;
+}
+
+
+
+.pflstepttt-left h2 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 65px;
+    margin: 0;
+    padding-top: 127px;
+}
+
+.pflstepttt-left p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 28px 0px;
+    padding-bottom: 52px;
+}
+
+.pflstepttt-right {
+    position: relative;
+}
+
+.pflstepttt-right1 img {
+    max-width: 100%;
+    display: block;
+}
+
+
+
+.owl-navvv .customNextBtn3 i {
+    color: #fff;
+    background-color: #D1D1D1;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -115px;
+    cursor: pointer;
+    z-index: 999;
+    left: -18px;
+    transition: 0.3s all ease;
+}
+
+
+
+
+.owl-navvv .customPrevBtn3 i {
+    color: #fff;
+    background-color: #D1D1D1;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -115px;
+    cursor: pointer;
+    z-index: 999;
+    right: -18px;
+    transition: 0.3s all ease;
+}
+
+
+/*--- eyma-area start ----*/
+.eyma-area {
+    background-image: url('img/bg-6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;    
+}
+
+.eyma-area .container {
+    max-width: 1080px;
+}
+
+.eyma-left {
+    background-image: url(img/pfl-8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 64px 0;
+    padding-bottom: 126px;    
+}
+
+.eyma-left h2 {
+    font-family: "Mosk Bold 700";
+    color: #2C2A2A;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 76px;
+    margin: 0;
+}
+
+.eyma-left h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+    padding-top: 9px;
+    padding-bottom: 7px;  
+}
+
+
+.eyma-left p {
+    font-family: "Mosk Light 300";
+    color: #818181;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    margin: 0;
+    padding-bottom: 5px; 
+}
+
+
+.eyma-left img {
+  max-width: 100%;  
+  display: block;
+  margin: auto;
+}
+
+
+
+
+.eyma-right img {
+    width: 114%;
+    display: block;
+    margin: auto;
+    margin-top: -168px;
+    margin-bottom: -152px;
+}
+
+
+.slider18.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    height: 746px;
+    padding-top: 155px;
+}
+
+
+
+.customNextBtn18 i {
+    color: #fff;
+    background-color: #D1D1D1;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 999;
+    left: -34px;
+    transition: 0.3s all ease;
+    top: 50%;
+}
+
+.customNextBtn18 i:hover {
+    color: #fff;
+    background-color: #FB41C6;  
+}
+
+
+.customPrevBtn18 i {
+    color: #fff;
+    width: 31.5px;
+    height: 31.5px;
+    background-color: #D1D1D1;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 999;
+    right: -34px;
+    transition: 0.3s all ease;
+    top: 50%;
+}
+
+.customPrevBtn18 i:hover {
+    color: #fff;
+    background-color: #FB41C6;   
+}
+
+.aemht-area2 {
+    display: none;
+}
+
+.wcsb-area2 {
+    display: none;
+}
+
+
+.pflstep-area2 {
+    display: none;
+}
+
+
+.pflstept-area2 {
+    display: none;
+}
+
+.pflsteptt-area2 {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--- eyma-area2 start ---*/
+.eyma-area2 {
+    background-image: url(img/mbg-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 7px 0;
+    margin-top: 82px;
+}
+
+
+.eyma-area .container {
+    max-width: 1080px;
+}
+
+.eyma-left {
+    background-image: url(img/pfl-8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 64px 0;
+    padding-bottom: 126px;    
+}
+
+.eyma-left h2 {
+    font-family: "Mosk Bold 700";
+    color: #2C2A2A;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 76px;
+    margin: 0;
+}
+
+.eyma-left h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+    padding-top: 9px;
+    padding-bottom: 7px;  
+}
+
+
+.eyma-left p {
+    font-family: "Mosk Light 300";
+    color: #818181;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    margin: 0;
+    padding-bottom: 5px; 
+}
+
+
+.eyma-left img {
+  max-width: 100%;  
+  display: block;
+  margin: auto;
+}
+
+
+
+
+.eyma-right img {
+    width: 114%;
+    display: block;
+    margin: auto;
+    margin-top: -168px;
+    margin-bottom: -152px;
+}
+
+
+.slider18.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    height: 746px;
+    padding-top: 155px;
+}
+
+
+.customNextBtn18 i {
+    color: #fff;
+    background-color: #D1D1D1;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 999;
+    left: -34px;
+    transition: 0.3s all ease;
+    top: 50%;
+}
+
+.customNextBtn18 i:hover {
+    color: #fff;
+    background-color: #FB41C6;  
+}
+
+
+.customPrevBtn18 i {
+    color: #fff;
+    width: 31.5px;
+    height: 31.5px;
+    background-color: #D1D1D1;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 999;
+    right: -34px;
+    transition: 0.3s all ease;
+    top: 50%;
+}
+
+.customPrevBtn18 i:hover {
+    color: #fff;
+    background-color: #FB41C6;   
+}
+
+
+.sliderpart {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--- eyma-area2 start ---*/
+.sliderpart11 .eyma-area2 {
+    background-image: url(img/mbg-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 7px 0;
+    margin-top: 82px;
+}
+
+
+.sliderpart11 .eyma-area .container {
+    max-width: 1080px;
+}
+
+.sliderpart11 .eyma-left {
+    background-image: url(img/pfl-8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 64px 0;
+    padding-bottom: 126px;    
+}
+
+.sliderpart11 .eyma-left h2 {
+    font-family: "Mosk Bold 700";
+    color: #2C2A2A;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 76px;
+    margin: 0;
+}
+
+.sliderpart11 .eyma-left h3 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+    padding-top: 9px;
+    padding-bottom: 7px;  
+}
+
+
+.sliderpart11 .eyma-left p {
+    font-family: "Mosk Light 300";
+    color: #818181;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    margin: 0;
+    padding-bottom: 5px; 
+}
+
+
+.sliderpart11 .eyma-left img {
+  max-width: 100%;  
+  display: block;
+  margin: auto;
+}
+
+
+
+
+.sliderpart11 .eyma-right img {
+    width: 105%;
+    display: block;
+    margin: auto;
+    margin-top: -147px;
+    margin-bottom: -152px;
+}
+
+
+.sliderpart11 .slider18.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    height: 721px;
+    padding-top: 63px;
+}
+
+
+.sliderpart11 .customNextBtn18 i {
+    color: #fff;
+    background-color: #D1D1D1;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 999;
+    left: 60px !important;
+    transition: 0.3s all ease;
+    top: 50%;
+}
+
+.sliderpart11 .customNextBtn18 i:hover {
+    color: #fff;
+    background-color: #FB41C6;  
+}
+
+
+.sliderpart11 .customPrevBtn18 i {
+    color: #fff;
+    width: 31.5px;
+    height: 31.5px;
+    background-color: #D1D1D1;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 999;
+    right:  60px !important;
+    transition: 0.3s all ease;
+    top: 50%;
+}
+
+.sliderpart11 .customPrevBtn18 i:hover {
+    color: #fff;
+    background-color: #FB41C6;   
+}
