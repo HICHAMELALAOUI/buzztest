@@ -1,0 +1,500 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+.tjp-area .customPrevBtn21 i {
+    color: #fff;
+    background-color: #00e2ff;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 348px;
+    margin-top: -53px;
+    transition: 0.2s all ease;
+    z-index: 99999;
+    cursor: pointer;
+}
+
+.tjp-area .owl-dots {
+    margin-left: 126px;
+    margin-top: 28px;
+}
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+.hebd-top2 {
+	display: block;
+}
+
+
+.hebd-top1 {
+	display: none;
+}
+
+
+.hebd-top h2 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 35px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.g22 {
+	display: block;
+}
+
+.g11 {
+	display: none;
+}
+
+.ziehharmonika .hhh1 {
+    font-family: 'Mosk Light 300';
+    color: #7C7C7C;
+    padding: 14px 12px;
+    padding-left: 0;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 2px;
+    padding-right: 40px;
+    transition: 0.25s all;
+    position: relative;
+}
+
+
+.ziehharmonika > .ppp1 {
+    background: #fff;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 14px;
+    padding: 0px 0px;
+    margin-bottom: 9px;
+    padding-right: 28px;
+}
+
+
+.collapseIcon i {
+    color: #00E2FF;
+    font-size: 22px;
+}
+
+.Step01-top p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 18px 0;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.tjp-area .owl-carousel button.owl-dot {
+    background: #F8F8F8 !important;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    width: 76.83px !important;
+    height: 7px;
+    display: inline-block;
+    margin: 0 8px;
+    border-radius: 43px;
+    outline: none;
+}
+
+
+.tjp-area .owl-dots {
+    margin-left: 95px;
+    margin-top: 28px;
+}
+
+
+.tjp-area .customPrevBtn21 i {
+    color: #fff;
+    background-color: #00e2ff;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 272px;
+    margin-top: -53px;
+    transition: 0.2s all ease;
+    z-index: 99999;
+    cursor: pointer;
+}
+
+.tjp-part {
+    background-color: #F4FCFD;
+    padding: 25px 10px;
+    padding-top: 30px;
+}
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {	
+
+
+.hebd-area2 {
+	display: block;
+}
+
+
+.hebd-area1 {
+	display: none;
+}
+
+.hebd-top h2 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 28px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.hebd-top p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 17px;
+    margin: 0;
+    padding: 6px 0px;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+
+.hebd-area {
+    background: #fff;
+    padding: 27px 0;
+    padding-bottom: 20px;
+}
+
+
+.Step01-area1 {
+  display: none;
+}
+
+.Step01-area2 {
+  display: block;
+}
+
+.Step01-area {
+    padding: 30px 0;
+    background-color: #fff;
+}
+
+
+.Step01-top h2 {
+    font-family: 'Mosk Bold 700';
+    color: #2C2A2A;
+    font-size: 24px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+
+
+.Step01-top h2:after {
+    content: "";
+    display: block;
+    background-color: #D9FBFF;
+    width: 130px;
+    height: 12px;
+    margin: auto;
+    margin-top: -13px;
+}
+
+.Step01-top p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 17px;
+    margin: 0;
+    padding: 18px 0;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.Step01-right1 {
+    padding-top: 16px;
+}
+
+
+.ziehharmonika .hhh1 {
+    font-family: 'Mosk Light 300';
+    color: #7C7C7C;
+    padding: 14px 16px;
+    padding-left: 0px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 2px;
+    padding-right: 2px;
+    transition: 0.25s all;
+    position: relative;
+}
+
+.ziehharmonika > .ppp1 {
+    background: #fff;
+    border-radius: 4px;
+    text-align: left;
+    padding: 0px 0px;
+    margin-bottom: 9px;
+    font-size: 13px;
+    padding-right: 0px;
+}
+
+.collapseIcon i {
+    color: #00E2FF;
+    font-size: 21px;
+}
+
+.ziehharmonika {
+	display: block;
+	margin: auto;
+}
+
+.ziehharmonika .collapseIcon {
+    position: absolute;
+    right: 0px;
+    top: 45%;
+    font-size: 24px;
+    font-weight: 300;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+.tjp-area1 {
+	display: none;
+}
+
+.tjp-area2 {
+	display: block;
+}
+
+
+.tjp-area .owl-carousel button.owl-dot {
+    background: #F8F8F8 !important;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    width: 114px !important;
+    height: 7px;
+    display: inline-block;
+    margin: 0 8px;
+    border-radius: 43px;
+    outline: none;
+    display: none;
+}
+
+.tjp-area {
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+
+
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+
+.hebd-area2 {
+	display: block;
+}
+
+
+.hebd-area1 {
+	display: none;
+}
+
+.hebd-top h2 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 28px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.hebd-top p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 17px;
+    margin: 0;
+    padding: 6px 0px;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+
+.hebd-area {
+    background: #fff;
+    padding: 27px 0;
+    padding-bottom: 20px;
+}
+
+
+.Step01-area1 {
+  display: none;
+}
+
+.Step01-area2 {
+  display: block;
+}
+
+.Step01-area {
+    padding: 30px 0;
+    background-color: #fff;
+}
+
+
+.Step01-top h2 {
+    font-family: 'Mosk Bold 700';
+    color: #2C2A2A;
+    font-size: 24px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+
+
+.Step01-top h2:after {
+    content: "";
+    display: block;
+    background-color: #D9FBFF;
+    width: 130px;
+    height: 12px;
+    margin: auto;
+    margin-top: -13px;
+}
+
+.Step01-top p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 17px;
+    margin: 0;
+    padding: 18px 0;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.Step01-right1 {
+    padding-top: 16px;
+}
+
+
+.ziehharmonika .hhh1 {
+    font-family: 'Mosk Light 300';
+    color: #7C7C7C;
+    padding: 14px 16px;
+    padding-left: 0px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 2px;
+    padding-right: 2px;
+    transition: 0.25s all;
+    position: relative;
+}
+
+.ziehharmonika > .ppp1 {
+    background: #fff;
+    border-radius: 4px;
+    text-align: left;
+    padding: 0px 0px;
+    margin-bottom: 9px;
+    font-size: 13px;
+    padding-right: 0px;
+}
+
+.collapseIcon i {
+    color: #00E2FF;
+    font-size: 21px;
+}
+
+.ziehharmonika {
+	display: block;
+	margin: auto;
+}
+
+.ziehharmonika .collapseIcon {
+    position: absolute;
+    right: 0px;
+    top: 45%;
+    font-size: 24px;
+    font-weight: 300;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+.tjp-area1 {
+	display: none;
+}
+
+.tjp-area2 {
+	display: block;
+}
+
+
+.tjp-area .owl-carousel button.owl-dot {
+    background: #F8F8F8 !important;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    width: 114px !important;
+    height: 7px;
+    display: inline-block;
+    margin: 0 8px;
+    border-radius: 43px;
+    outline: none;
+    display: none;
+}
+
+.tjp-area {
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+
+
+}

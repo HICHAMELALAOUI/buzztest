@@ -9,8 +9,9 @@
         <link rel="stylesheet" href="./stylesheet.css">
        	<!-- Include Bootstrap -->
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+          <link rel="stylesheet" type="text/css" href="css/util.css">
+          <link rel="stylesheet" type="text/css" href="css/main.css">
 
-    
 		
 		<!-- Main StyleSheet -->
 		<link rel="stylesheet" href="style.css" />	
@@ -237,44 +238,51 @@
     </div>
    <!-- main1-area end -->
    <form id="form-testeur" class="contact100-form validate-form">
-      <div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Name">
-         <span class="label-input100">Nom et prénom</span>
-         <input class="input100" type="text" name="name" placeholder="Enter Your Name">
+      <div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Email (e@a.x)">
+         <span class="label-input100">Nom</span>
+         <input class="input100" type="text" name="email" placeholder="nom ">
       </div>
 
       <div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Email (e@a.x)">
-         <span class="label-input100">sexe</span>
-         <input class="input100" type="text" name="email" placeholder="Homme ">
+         <span class="label-input100">prénom</span>
+         <input class="input100" type="text" name="email" placeholder="prénom ">
       </div>
 
-      <div class="wrap-input100 bg1 rs1-wrap-input100">
-         <span class="label-input100">Date de naissance</span>
-         <input class="input100" type="date" name="phone" placeholder="16/08/1991" style="flex-direction: row-reverse;">
+      
+      <div class="wrap-input100 bg1">
+         <span class="label-input100">company name</span>
+         <input class="input100" type="text" name="phone" placeholder="company name">
+      </div>
+      
+      <div class="wrap-input100 bg1">
+         <span class="label-input100">company type</span>
+         <input class="input100" type="text" name="phone" placeholder="company type">
       </div>
 
-      <div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Email (e@a.x)">
+      <div class="wrap-input100 validate-input bg1" data-validate = "Enter Your Email (e@a.x)">
+         <span class="label-input100">Ville</span>
+         <input class="input100" type="text" name="email" placeholder="Casablanca ">
+      </div>
+      <div class="wrap-input100 bg1">
+         <span class="label-input100">company type</span>
+         <input class="input100" type="text" name="phone" placeholder="company type">
+      </div>
+
+      <div class="wrap-input100 validate-input bg1" data-validate = "Enter Your Email (e@a.x)">
          <span class="label-input100">Ville</span>
          <input class="input100" type="text" name="email" placeholder="Casablanca ">
       </div>
 
-      <div class="wrap-input100 bg1 rs1-wrap-input100">
-         <span class="label-input100">Numéro de téléphone</span>
-         <input class="input100" type="text" name="phone" placeholder="06.02.29.33.33">
+      <div class="wrap-input100 bg1">
+         <span class="label-input100">Which category best describes your product or business?</span>
+         <input class="input100" type="text" name="phone" placeholder="Which category best describes your product or business?">
       </div>
 
       <div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Name">
-         <span class="label-input100">mot de passe</span>
-         <img id="hide-icon3" onclick="showhidepass3()" class="icon-form" src="img/eye-slash.svg"><img id="show-icon3" onclick="showhidepass3()" class="icon-form" src="img/eye-line.svg"><input id='showhide3' class="input100" type="text" name="name" placeholder="Enter Your Name">
+         <span class="label-input100">Which category best describes your product or business?</span>
+         <input class="input100" type="text" name="name" placeholder="Which category best describes your product or business?">
       </div>
-
-      <div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Name">
-         <span class="label-input100">mot de passe</span>
-         <img id="hide-icon4" onclick="showhidepass4()" class="icon-form" src="img/eye-slash.svg"><img id="show-icon4" onclick="showhidepass4()" class="icon-form" src="img/eye-line.svg"> <input id='showhide4' class="input100" type="text" name="name" placeholder="Enter Your Name">
-      </div>
-      <div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Name">
-         <span class="label-input100">Instagram</span>
-         <img class="icon-form" src="img/instagram.svg"><input class="input100" type="text" name="name" placeholder="Enter Your Name">
-      </div>
+      
       <div class="w-100 text-left">
       <input class="" type="radio" name="name" placeholder="Enter Your Name">
       <span>j'ai lu et accepté les C.G.U de buzztest</span></div>
@@ -282,18 +290,12 @@
       <span>Je souhaite m'abonner à la newsletter Buzztest</span></div>
       
       <button type="button" class="w-100 m-1 btn btn-success rounded-circle p-3">Inscrivez-vous</button>
-      <button type="button" class="w-100 m-1 btn btn-facebook rounded-circle p-3 text-left"><span class="sm-icon"><img  src="img/facebook.svg"></span><span style="position: absolute;left: 0; right: 0;  width: max-content; margin: 0 auto;">je m'inscris avec facebook</span></button>
-      <button type="button" class="w-100 m-1 btn btn-google rounded-circle p-3 text-left"><span class="sm-icon-g"><img  src="img/google.svg"></span><span style="position: absolute;left: 0; right: 0;  width: max-content; margin: 0 auto;">je m'inscris avec google</span></button>
-      <div class="container-contact100-form-btn">
-         <button class="c-btn contact100-form-btn">
-            <span>
-               Login
-            </span>
-         </button>
-      </div>
    </form>
    <section id="section14">
-      here
+      <div class="text-white l-text">
+         <h1>Have<b> 3,000+ Testeur?</b></h1><br><br>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean placerat, mauris tempor rhoncus suscipit, orci dolor porttitor felis, vitae sodales lectus libero in nunc. Sed sit amet tellus sed nunc vulputate dictum eget eu metus. Ut aliquam commodo imperdiet.</p>
+      </div>
       
    </section>
 
@@ -557,6 +559,32 @@
     padding: 0;
     margin: 0;
   }
+  #form-testeur {
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 200px;
+    width: 350px;
+    border-radius: 50px;
+    padding: 24px;
+   }
+   /** for mobile */
+   @media (max-width: 480px) {
+      body {
+         background-size: cover;
+         background: #FB41C6;
+         background-position-x: 27%;
+      }
+      #form-testeur {
+         right: 0;
+         top: 331px;
+         width: 97%;
+         left: 0;
+      }
+      .rs1-wrap-input100 {
+         width: 48%;
+      }
+   }
       </style>
     </body>
 </html>

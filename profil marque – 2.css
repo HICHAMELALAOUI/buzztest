@@ -1,0 +1,316 @@
+
+
+
+/*--- hebd-area start ---*/
+.hebd-area {
+	background: #fff;
+	padding: 197px 0;
+	padding-bottom: 60px;
+}
+
+.hebd-area .container {
+    max-width: 1080px;
+    display: block;
+    margin: auto;
+}
+
+.hebd-top {
+	text-align: center;
+}
+
+.hebd-top h2 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 65px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.hebd-top p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 6px 0px;
+    padding-bottom: 37px;
+    text-align: center;	
+}
+
+.hebd-top a {
+    font-family: 'Mosk Light 300';
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    width: 194.62px;
+    height: 62.83px;
+    background-color: #00E2FF;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 62.83px;
+    margin-left: 12px;
+    transition: 0.2s all ease;
+    display: inline-block;
+    margin-bottom: 60px;	
+}
+
+.hebd-top a:hover {
+	background-color: #000000;
+	color: #fff;
+}
+
+.hebd-part img {
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+
+/*--- Step01-area start ---*/
+.Step01-area {
+	padding: 60px 0;
+	background-color: #fff;
+}
+
+.Step01-area .container {
+    max-width: 1080px;
+    display: block;
+    margin: auto;
+}
+
+.Step01-top h2 {
+    font-family: "Mosk Light 300";
+    color: #2C2A2A;
+    font-size: 35px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+
+.Step01-top h2:after {
+    content: "";
+    display: block;
+    background-color: #D9FBFF;
+    width: 206px;
+    height: 20px;
+    margin: auto;
+    margin-top: -22px;
+}
+
+.Step01-top p {
+    font-family: "Mosk Light 300";
+    color: #7C7C7C;
+    font-size: 19px;
+    margin: 0;
+    padding: 18px 0;
+    text-align: center;
+    padding-bottom: 58px;
+}
+
+.collapseIcon i {
+    color: #00E2FF;
+    font-size: 30px;
+}
+
+.ziehharmonika .ppp1 {
+	display: block;
+}
+
+.Step01-left img {
+	max-width: 100%;
+	display: block;
+}
+
+
+.Step01-left1 img {
+	max-width: 100%;
+	display: block;
+	margin: auto;
+	margin-right: 0;
+}
+
+.Step01-right1 {
+    padding-top: 85px;	
+}
+
+
+
+/*--- tjp-area start ----*/
+.tjp-area {
+	background-color: #fff;
+	padding: 60px 0;
+}
+
+.tjp-area .container {
+    max-width: 1080px;
+    display: block;
+    margin: auto;	
+}
+
+.tjp-part {
+    background-color: #F4FCFD;
+    padding: 25px 15px;
+    padding-top: 30px;
+}
+
+.tjp-part-a1 {
+	background-color: #fff;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    line-height: 150px;
+    display: block;
+    border: 2px solid #000000;
+    margin: auto;
+}
+
+.tjp-part-a1 img {
+	max-width: 100%;
+	display: block;
+	margin: auto;
+}
+
+.tjp-part-a2 h3 {
+    font-family: 'Mosk Bold 700';
+    color: #2C2A2A;
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.tjp-part-a2 h4 {
+    font-family: 'Mosk Light 300';
+    color: #2C2A2A;
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 14px;	
+}
+
+
+.tjp-part-a2 p {
+    font-family: 'Mosk Light 300';
+    color: #2C2A2A;
+    font-size: 13px;
+    text-align: center;
+    line-height: 16px;
+    margin: 0;
+    padding-top: 6px;
+    padding-bottom: 26px;	
+}
+
+.tjp-part-a3 img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+.tjp-part-b1 img {
+    margin-top: 14px;
+}
+
+.tjp-part-b2 img {
+    margin-top: 22px;
+	
+}
+
+.tjp-part-b3 img {
+    margin-top: 29px;	
+}
+
+
+
+
+
+
+.tjp-area .customNextBtn21 i {
+    color: #fff;
+    background-color: #00e2ff;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    left: 16px;
+    top: -25px;
+    transition: 0.2s all ease;
+    z-index: 99999;
+    cursor: pointer;
+}
+
+.tjp-area .customNextBtn21 i:hover {
+    background-color: #D1D1D1;
+}
+
+.tjp-area .customPrevBtn21 i {
+    color: #fff;
+    background-color: #00e2ff;
+    width: 31.5px;
+    height: 31.5px;
+    line-height: 31.5px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 505px;
+    margin-top: -53px;
+    transition: 0.2s all ease;
+    z-index: 99999;
+    cursor: pointer;
+}
+.tjp-area .customPrevBtn21 i:hover {
+    background-color: #D1D1D1;
+}
+
+
+
+.tjp-area .owl-carousel button.owl-dot.active {
+    background: #00e2ff !important;
+}
+
+
+.tjp-area .owl-carousel button.owl-dot {
+    background: #F8F8F8 !important;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    width: 114px !important;
+    height: 7px;
+    display: inline-block;
+    margin: 0 8px;
+    border-radius: 43px;
+    outline: none;
+
+}
+
+.tjp-area .owl-dots {
+    margin-left: 166px;
+    margin-top: 28px;
+}
+
+.hebd-top2 {
+	display: none;
+}
+
+.g22 {
+	display: none;
+}
+
+
+
+.hebd-area2 {
+	display: none;
+}
+
+.Step01-area2 {
+	display: none;
+}
+
+.tjp-area2 {
+	display: none;
+}

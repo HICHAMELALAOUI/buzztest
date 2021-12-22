@@ -1059,7 +1059,10 @@ select, select:hover, select:active, select:focus{
     text-align: center;
     line-height: 16px; 
 }
-
+.l-text{
+    width: calc(66% - 100px);
+    padding: 185px 80px 0;
+}
 .dntenc_aa3 h4, .dntenc_aa1 h4, .dntenc_aa2 h4 {
     font-family: "Mosk Light 300";
     color: #fff;
@@ -2071,4 +2074,16 @@ placeholder {
     position: absolute;
     right: 21px;
     top: 39px;
+}
+@media (max-width: 480px) {
+    #section14 {
+        height: auto; 
+        background: #FB41C6;
+        margin-bottom: 50px;
+    }
+    .l-text {
+        padding: 508px 13px 40px;
+        text-align: center;
+        width: auto;
+    }
 }

@@ -346,6 +346,7 @@ select:focus-visible {
 .test-radio2 input:checked + span {background: #00E87B; border-color: #00E87B;color: white;}
 /** for mobile */
 @media (max-width: 480px) {
+    
     .text-test-form {
         width: 68%;
     }
